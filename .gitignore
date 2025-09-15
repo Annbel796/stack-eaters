@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Node / build
+node_modules/
+dist/
+build/
+*.log
+
+# Env / keys
+.env
+.env.local
+
+# Images cache
+*.psd
+*.ai
+
+# WP: если вы вдруг положите сюда не-темные вещи
+wp-config.php

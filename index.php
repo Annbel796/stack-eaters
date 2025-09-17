@@ -9,7 +9,7 @@
                 <p><?php echo get_theme_mod('hero_description', 'Vi hjälper kunder med fullständiga lösningar från Google Analytics till visualisering med Looker/PowerBI'); ?></p>
                 <div class="hero-stats">
                     <div class="hero-stat">
-                        <span class="hero-stat-number"><?php echo get_theme_mod('stat1_number', '4'); ?></span>
+                        <span class="hero-stat-number"><?php echo get_theme_mod('stat1_number', '7'); ?></span>
                         <span class="hero-stat-label"><?php echo get_theme_mod('stat1_label', 'Experter'); ?></span>
                     </div>
                     <div class="hero-stat">
@@ -74,12 +74,12 @@
 
                 <div class="about-team">
                     <h3>Vårt team</h3>
-                    <p>Experter inom sju specialistområden, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter och AI-specialister till CRM-experter, e-handelsspecialister och visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
+                    <p>Sju experter inom sju specialistområden, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter och AI-specialister till CRM-experter, e-handelsspecialister och visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
                     
                     <div class="team-stats">
                         <div class="team-stat">
-                            <span class="stat-number">15+</span>
-                            <span class="stat-label">År sammanlagd erfarenhet</span>
+                            <span class="stat-number">7</span>
+                            <span class="stat-label">Experter</span>
                         </div>
                         <div class="team-stat">
                             <span class="stat-number">100+</span>

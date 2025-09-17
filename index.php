@@ -34,7 +34,7 @@
             <div class="about-content">
                 <div class="about-story">
                     <h3>Vår historia</h3>
-                    <p>Stack Eaters grundades med en vision: att bygga bro mellan komplex teknologi och praktiska affärsresultat. Som en modern konsultbyrå bestående av fyra specialister inom Data Technology Stack, har vi gjort det till vår mission att förenkla det komplexa och leverera mätbara resultat.</p>
+                    <p>Stack Eaters grundades med en vision: att bygga bro mellan komplex teknologi och praktiska affärsresultat. Som en modern konsultbyrå med experter inom sju specialistområden av Data Technology Stack, har vi gjort det till vår mission att förenkla det komplexa och leverera mätbara resultat.</p>
                     
                     <p>Vårt namn speglar vår filosofi – vi "äter upp" tekniska utmaningar och transformerar dem till kraftfulla lösningar. Med över 100 framgångsrika projekt bakom oss, har vi bevisat att rätt teknisk stack kombinerat med AI-driven intelligens kan revolutionera hur företag arbetar med data.</p>
                 </div>
@@ -74,7 +74,7 @@
 
                 <div class="about-team">
                     <h3>Vårt team</h3>
-                    <p>Fyra experter, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter till AI-specialister, från CRM-experter till visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
+                    <p>Experter inom sju specialistområden, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter och AI-specialister till CRM-experter, e-handelsspecialister och visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
                     
                     <div class="team-stats">
                         <div class="team-stat">
@@ -90,7 +90,7 @@
                             <span class="stat-label">AI-driven övervakning</span>
                         </div>
                         <div class="team-stat">
-                            <span class="stat-number">4</span>
+                            <span class="stat-number">7</span>
                             <span class="stat-label">Specialistområden</span>
                         </div>
                     </div>

@@ -248,3 +248,162 @@
         </div>
     </div>
 </div>
+
+<!-- Google Tag Manager Modal -->
+<div id="gtmModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" onclick="closeModal('gtm')">&times;</span>
+            <h2>Google Tag Manager</h2>
+        </div>
+        <div class="modal-body">
+            <p>Vi på <strong>Stack Eaters</strong> hjälper er att effektivisera hanteringen av alla era tracking-koder, marknadsföringstaggar och analys-verktyg genom Google Tag Manager. Slipp besvärliga utvecklingsprocesser och få full kontroll över er digital mätning.</p>
+
+            <h3>Våra huvudkomponenter</h3>
+
+            <h4>1. Centraliserad tagghantering</h4>
+            <p>All era tracking-koder samlas på ett ställe. Google Analytics, Facebook Pixel, AdWords-konvertering, LinkedIn Insight Tag och hundratals andra verktyg kan hanteras utan teknisk support.</p>
+
+            <h4>2. Enkel implementation utan utvecklare</h4>
+            <p>När GTM väl är installerat kan marknadsföringsteamet själva lägga till nya taggar, ändra triggers och uppdatera mätningar. Ingen kod behöver ändras på webbplatsen.</p>
+
+            <h4>3. Avancerad event-tracking</h4>
+            <p>Vi sätter upp spårning av viktiga händelser som knapptryck, formulärinskickning, videovisning, filnedladdningar och mycket mer. Allt automatiskt och strukturerat.</p>
+
+            <h4>4. Versionshantering och testning</h4>
+            <p>GTM erbjuder inbyggd versionshantering så ni kan testa ändringar innan de går live. Ingen risk för att förstöra befintlig mätning.</p>
+
+            <h4>5. Förbättrad webbprestanda</h4>
+            <p>Genom att ladda alla script asynkront via GTM förbättras webbplatsens laddningstid jämfört med traditionella tagg-implementationer.</p>
+
+            <div class="case-study">
+                <h4>Framgångscase: E-handelsföretag inom heminredning</h4>
+                <p><strong>Utgångsläge:</strong> Företaget hade 12 olika tracking-verktyg som alla krävde separata kodändringar. Varje nytt verktyg tog 2-4 veckor att implementera.</p>
+                
+                <p><strong>Genomförande:</strong></p>
+                <ul>
+                    <li>Implementerade Google Tag Manager som central hub</li>
+                    <li>Migrerade alla befintliga taggar till GTM</li>
+                    <li>Skapade strukturerad event-tracking för e-handel</li>
+                    <li>Utbildade marknadsföringsteamet i grundläggande GTM-hantering</li>
+                </ul>
+                
+                <p><strong>Resultat efter 1 månad:</strong></p>
+                <ul>
+                    <li>Nya verktyg kan nu implementeras på <strong>10 minuter</strong> istället för veckor</li>
+                    <li>Webbplatsens laddningstid förbättrades med <strong>23%</strong></li>
+                    <li>Marknadsföringsteamet blev självförsörjande på tagghantering</li>
+                    <li>Förbättrade data-kvalitet genom strukturerad event-tracking</li>
+                </ul>
+            </div>
+
+            <p>👉 Med <strong>Stack Eaters</strong> får ni full kontroll över er digital mätning utan teknisk komplexitet.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Ads System Modal -->
+<div id="adsModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" onclick="closeModal('ads')">&times;</span>
+            <h2>Annonssystem: Meta & Google Ads</h2>
+        </div>
+        <div class="modal-body">
+            <p>Vi på <strong>Stack Eaters</strong> hjälper er att maximera er räckvidd och ROI genom experthantering av era annonssystem på Meta (Facebook & Instagram) och Google Ads. Från strategisk planering till daglig optimering.</p>
+
+            <h3>Våra huvudkomponenter</h3>
+
+            <h4>1. Meta Ads - Facebook & Instagram</h4>
+            <p>Riktade annonser som når era kunder där de spenderar mest tid. Vi skapar visuellt tilltalande kampanjer för både Facebook och Instagram med fokus på er målgrupps preferenser och beteenden.</p>
+
+            <h4>2. Google Ads - Sök & Display</h4>
+            <p>Fånga era kunder när de söker efter era produkter eller tjänster. Vi hanterar både sökannonser och displaykampanjer för maximal synlighet över hela webben.</p>
+
+            <h4>3. Avancerad målgruppsoptimering</h4>
+            <p>Genom att kombinera förstahandsdata från era system med plattformarnas AI skapar vi lookalike-målgrupper och custom audiences som verkligen konverterar.</p>
+
+            <h4>4. ROI-spårning och attribution</h4>
+            <p>Fullständig spårning från klick till köp. Vi implementerar konverteringsåtgärder, UTM-parametrar och advanced tracking så ni vet exakt vilka annonser som genererar intäkter.</p>
+
+            <h4>5. A/B-testning och kontinuerlig optimering</h4>
+            <p>Vi testar kontinuerligt olika kreativ, målgrupper, budskap och landningssidor för att säkerställa att era kampanjer alltid presterar optimalt.</p>
+
+            <div class="case-study">
+                <h4>Framgångscase: SaaS-företag inom projekthantering</h4>
+                <p><strong>Utgångsläge:</strong> Företaget spenderade 80 000 kr/månad på Google och Facebook-annonser men såg dålig ROI och få kvalitativa leads.</p>
+                
+                <p><strong>Genomförande:</strong></p>
+                <ul>
+                    <li>Omstrukturerade kampanjer med bättre målgruppsindelning</li>
+                    <li>Implementerade avancerad konverteringsspårning</li>
+                    <li>Skapade lookalike-målgrupper baserat på befintliga kunder</li>
+                    <li>Optimerade landningssidor för högre konvertering</li>
+                </ul>
+                
+                <p><strong>Resultat efter 3 månader:</strong></p>
+                <ul>
+                    <li>Cost per lead minskade med <strong>65%</strong></li>
+                    <li>Kvalitativa leads ökade med <strong>180%</strong></li>
+                    <li>ROI förbättrades från -20% till <strong>+340%</strong></li>
+                    <li>Månadsintäkterna från annonser ökade med <strong>150%</strong></li>
+                </ul>
+            </div>
+
+            <p>👉 Med <strong>Stack Eaters</strong> blir era annonser en lönsam investering som driver tillväxt och nya kunder.</p>
+        </div>
+    </div>
+</div>
+
+<!-- E-commerce Modal -->
+<div id="ecommerceModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close" onclick="closeModal('ecommerce')">&times;</span>
+            <h2>E-handel</h2>
+        </div>
+        <div class="modal-body">
+            <p>Vi på <strong>Stack Eaters</strong> skapar kompletta e-handelslösningar som inte bara ser professionella ut, utan också konverterar besökare till kunder. Från teknisk implementation till AI-driven optimering.</p>
+
+            <h3>Våra huvudkomponenter</h3>
+
+            <h4>1. Komplett produktkatalog</h4>
+            <p>Vi bygger strukturerade produktkataloger med avancerad filtrering, sökning och kategorisering. AI hjälper till med produktrekommendationer och dynamisk prissättning.</p>
+
+            <h4>2. Säkra betalningslösningar</h4>
+            <p>Integration med alla större betalningsleverantörer - Klarna, Swish, kort, faktura. PCI-compliance och säkerhet enligt högsta standard för trygg e-handel.</p>
+
+            <h4>3. Intelligent lagerstyrning</h4>
+            <p>Automatisk lagerstyrning med integration till era ERP-system. AI-drivna prognoser för lageromställningar och automatiska påfyllningar.</p>
+
+            <h4>4. Avancerad orderhantering</h4>
+            <p>Från order till leverans - fullständig workflow med automatiserade statusuppdateringar, fraktintegration och kundsupport via multipla kanaler.</p>
+
+            <h4>5. AI-driven personalisering</h4>
+            <p>Personlig shoppingupplevelse för varje kund. Produktrekommendationer, dynamisk prissättning och individuellt anpassat innehåll som ökar konvertering.</p>
+
+            <div class="case-study">
+                <h4>Framgångscase: Modeföretag med fokus på hållbarhet</h4>
+                <p><strong>Utgångsläge:</strong> Liten butik ville expandera online med 200 produkter och behövde en komplett e-handelslösning från grunden.</p>
+                
+                <p><strong>Genomförande:</strong></p>
+                <ul>
+                    <li>Byggde WooCommerce-baserad e-handel med custom design</li>
+                    <li>Implementerade Klarna och Swish för svenska kunder</li>
+                    <li>AI-driven produktrekommendationer baserat på stil och storlek</li>
+                    <li>Integrerade lagerstyrning med befintligt kassasystem</li>
+                </ul>
+                
+                <p><strong>Resultat efter 6 månader:</strong></p>
+                <ul>
+                    <li>Online-försäljningen stod för <strong>60%</strong> av totala intäkterna</li>
+                    <li>Genomsnittligt ordervärde ökade med <strong>45%</strong> genom AI-rekommendationer</li>
+                    <li>Konverteringsgraden på <strong>4,2%</strong> (branschsnittet: 2,1%)</li>
+                    <li>Automatiserad orderhantering sparade 15 timmar/vecka</li>
+                </ul>
+            </div>
+
+            <p>👉 Med <strong>Stack Eaters</strong> får ni en e-handel som både säljer mer och kräver mindre manuellt arbete.</p>
+        </div>
+    </div>
+</div>

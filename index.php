@@ -68,6 +68,24 @@
                     <h3>Looker/PowerBI med AI</h3>
                     <p>Avancerad datavisualisering och rapportering med AI-genererade insikter som gör komplexa data förståeliga och handlingsbara.</p>
                 </div>
+
+                <div class="service-card" onclick="openModal('gtm')">
+                    <div class="service-icon">🏷️</div>
+                    <h3>Google Tag Manager</h3>
+                    <p>Effektiv hantering av alla dina tracking-koder och marknadsföringstaggar på ett ställe. Ingen utvecklare behövs för att lägga till nya taggar.</p>
+                </div>
+
+                <div class="service-card" onclick="openModal('ads')">
+                    <div class="service-icon">🎯</div>
+                    <h3>Annonssystem: Meta, Google Ads</h3>
+                    <p>Maximera din räckvidd med riktade annonser på Facebook, Instagram och Google. Vi skapar effektiva kampanjer som ger mätbara resultat.</p>
+                </div>
+
+                <div class="service-card" onclick="openModal('ecommerce')">
+                    <div class="service-icon">🛒</div>
+                    <h3>E-handel</h3>
+                    <p>Komplett e-handelslösning för att sälja dina produkter online med säker betalning, lagerstyrning och integrerad AI-analys.</p>
+                </div>
             </div>
         </section>
     </div>

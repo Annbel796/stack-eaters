@@ -360,50 +360,158 @@
     <div class="modal-content">
         <div class="modal-header">
             <span class="close" onclick="closeModal('ecommerce')">&times;</span>
-            <h2>E-handel</h2>
+            <h2>E-handelsplattform med AI-integration</h2>
         </div>
         <div class="modal-body">
-            <p>Vi på <strong>Stack Eaters</strong> skapar kompletta e-handelslösningar som inte bara ser professionella ut, utan också konverterar besökare till kunder. Från teknisk implementation till AI-driven optimering.</p>
+            <p>Vi på <strong>Stack Eaters</strong> utvecklar skräddarsydda e-handelslösningar som kombinerar svensk e-handelsexpertis med kraftfull AI-teknologi. Vårt mål är att skapa onlinebutiker som inte bara konverterar bättre, utan också automatiserar era affärsprocesser och skapar exceptionella kundupplevelser.</p>
 
-            <h3>Våra huvudkomponenter</h3>
+            <h3>Tekniska specialistområden</h3>
 
-            <h4>1. Komplett produktkatalog</h4>
-            <p>Vi bygger strukturerade produktkataloger med avancerad filtrering, sökning och kategorisering. AI hjälper till med produktrekommendationer och dynamisk prissättning.</p>
+            <h4>1. Svenska e-handelsplattformar</h4>
+            <p><strong>WooCommerce & WordPress:</strong> Flexibel och kostnadseffektiv lösning perfekt för svenska småföretag. Integrerat med Fortnox, Visma och andra svenska affärssystem.</p>
+            <p><strong>Shopify Plus:</strong> Skalbar enterprise-lösning för snabbt växande företag. Inbyggt stöd för internationell expansion och B2B-försäljning.</p>
+            <p><strong>Magento Commerce:</strong> Kraftfull plattform för komplexa produktkataloger och avancerad B2B-funktionalitet med multi-site hantering.</p>
 
-            <h4>2. Säkra betalningslösningar</h4>
-            <p>Integration med alla större betalningsleverantörer - Klarna, Swish, kort, faktura. PCI-compliance och säkerhet enligt högsta standard för trygg e-handel.</p>
+            <h4>2. Betalningslösningar för svenska marknaden</h4>
+            <p><strong>Klarna:</strong> Fullständig integration med alla Klarna-tjänster - köp nu betala senare, delbetalning och fakturahantering.</p>
+            <p><strong>Swish för företag:</strong> Direktintegrering för snabba och säkra betalningar, inklusive QR-kodslösningar för fysiska butiker.</p>
+            <p><strong>Kort & Digital wallet:</strong> Visa, Mastercard, Apple Pay, Google Pay med optimerad checkout-process för högre konvertering.</p>
+            <p><strong>Faktura & Autogiro:</strong> B2B-fokuserade betalningslösningar med integrering till era ekonomisystem.</p>
 
-            <h4>3. Intelligent lagerstyrning</h4>
-            <p>Automatisk lagerstyrning med integration till era ERP-system. AI-drivna prognoser för lageromställningar och automatiska påfyllningar.</p>
+            <h4>3. AI-driven kundupplevelse</h4>
+            <p><strong>Intelligent produktrekommendationer:</strong> Machine learning-algoritmer som analyserar kundbeteende, köphistorik och säsongstrender för att föreslå relevanta produkter i realtid.</p>
+            <p><strong>Dynamisk prissättning:</strong> AI-baserad prisoptimering som tar hänsyn till konkurrentpriser, lagervolymer och kundernas prisbenägenhet.</p>
+            <p><strong>Personaliserad produktsökning:</strong> Semantisk sökning som förstår kundens intentioner och visar mest relevanta resultat baserat på tidigare beteende.</p>
+            <p><strong>Chatbots med naturligt språk:</strong> AI-assistenter som hanterar kundservice på svenska, produktfrågor och orderstatusuppdateringar dygnet runt.</p>
 
-            <h4>4. Avancerad orderhantering</h4>
-            <p>Från order till leverans - fullständig workflow med automatiserade statusuppdateringar, fraktintegration och kundsupport via multipla kanaler.</p>
+            <h4>4. Avancerad lagerstyrning & logistik</h4>
+            <p><strong>Realtidssynkronisering:</strong> Automatisk uppdatering mellan e-handel, fysiska butiker och lager. Förhindrar översäljning och optimerar produkttillgänglighet.</p>
+            <p><strong>Prediktiv lagerstyrning:</strong> AI-prognoser för efterfrågan som hjälper er att optimera inköp och undvika slut-i-lager-situationer.</p>
+            <p><strong>Fraktintegration:</strong> Direktintegrering med PostNord, DHL, Bring och andra nordiska leverantörer för realtidsberäkning av fraktkostnader.</p>
+            <p><strong>Dropshipping-automation:</strong> Automatiserad orderhantering till leverantörer med realtidsuppdateringar av leveransstatus.</p>
 
-            <h4>5. AI-driven personalisering</h4>
-            <p>Personlig shoppingupplevelse för varje kund. Produktrekommendationer, dynamisk prissättning och individuellt anpassat innehåll som ökar konvertering.</p>
+            <h4>5. Konverteringsoptimering med data</h4>
+            <p><strong>A/B-testning:</strong> Kontinuerlig testning av produktsidor, checkout-process och marknadsföringsmeddelanden för att maximera konverteringsgraden.</p>
+            <p><strong>Heatmap-analys:</strong> Djupgående analys av hur kunder interagerar med er webbplats för att identifiera förbättringsområden.</p>
+            <p><strong>Övergivna varukorgar:</strong> Automatiserade e-postsekvenser med personaliserade erbjudanden för att återvinna förlorade försäljningar.</p>
+            <p><strong>Real-time personalisering:</strong> Dynamiskt innehåll som anpassas baserat på kundens geografiska plats, enhetstyp och beteendemönster.</p>
+
+            <h4>6. Integrationer & systemarkitektur</h4>
+            <p><strong>Ekonomisystem:</strong> Seamless integration med Fortnox, Visma, Monitor och andra svenska bokföringssystem för automatiserad fakturahantering.</p>
+            <p><strong>ERP-system:</strong> Koppling till affärssystem som Microsoft Dynamics, SAP Business One och IFS för fullständig datasynkronisering.</p>
+            <p><strong>Marknadsföringsverktyg:</strong> Integration med HubSpot, Mailchimp, Klaviyo för automatiserad lead nurturing och kundkommunikation.</p>
+            <p><strong>Analys & rapportering:</strong> Koppling till Google Analytics 4, Microsoft Power BI och custom dashboards för djupgående affärsinsikter.</p>
+
+            <h3>Branschspecifika lösningar</h3>
+
+            <h4>Mode & Accessoarer</h4>
+            <p>Size guide integration, virtual try-on med AR, seasonal product management och influencer collaboration tools.</p>
+
+            <h4>Elektronik & Teknik</h4>
+            <p>Komplexa produktkonfigurationer, garantihantering, B2B-prissättning och technical specification management.</p>
+
+            <h4>Heminredning & Möbler</h4>
+            <p>Room visualizers, 3D-produktvisning, store locator för fysiska showrooms och large item delivery management.</p>
+
+            <h4>Mat & Dryck</h4>
+            <p>Subscription management, expiration date tracking, age verification system och local delivery optimization.</p>
 
             <div class="case-study">
-                <h4>Framgångscase: Modeföretag med fokus på hållbarhet</h4>
-                <p><strong>Utgångsläge:</strong> Liten butik ville expandera online med 200 produkter och behövde en komplett e-handelslösning från grunden.</p>
+                <h4>Framgångscase 1: Premium heminredningsföretag</h4>
+                <p><strong>Utgångsläge:</strong> Etablerat företag med 15 fysiska butiker ville lansera e-handel för sina 3 000+ produkter inom heminredning och möbler. Utmaningen var att recreate in-store experience online.</p>
                 
-                <p><strong>Genomförande:</strong></p>
+                <p><strong>Teknisk implementation:</strong></p>
                 <ul>
-                    <li>Byggde WooCommerce-baserad e-handel med custom design</li>
-                    <li>Implementerade Klarna och Swish för svenska kunder</li>
-                    <li>AI-driven produktrekommendationer baserat på stil och storlek</li>
-                    <li>Integrerade lagerstyrning med befintligt kassasystem</li>
+                    <li><strong>Plattform:</strong> Magento Commerce med custom-utvecklade funktioner för 3D-produktvisning</li>
+                    <li><strong>AI-integration:</strong> Room recommendation engine baserat på kunders stilpreferenser och rumsmått</li>
+                    <li><strong>AR-funktionalitet:</strong> Möjlighet att "placera" möbler i kundens hem via smartphone-kamera</li>
+                    <li><strong>Logistik:</strong> Avancerad leveransplanering för stora möbler med tidsbokningssystem</li>
+                    <li><strong>B2B-portal:</strong> Separat portal för inredningsarkitekter och designers med specialpriser</li>
                 </ul>
                 
-                <p><strong>Resultat efter 6 månader:</strong></p>
+                <p><strong>Mätbara resultat efter 8 månader:</strong></p>
                 <ul>
-                    <li>Online-försäljningen stod för <strong>60%</strong> av totala intäkterna</li>
-                    <li>Genomsnittligt ordervärde ökade med <strong>45%</strong> genom AI-rekommendationer</li>
-                    <li>Konverteringsgraden på <strong>4,2%</strong> (branschsnittet: 2,1%)</li>
-                    <li>Automatiserad orderhantering sparade 15 timmar/vecka</li>
+                    <li>Online-försäljningen växte från 0 till <strong>35% av total omsättning</strong></li>
+                    <li>Genomsnittligt ordervärde online: <strong>8 400 kr</strong> (vs 6 200 kr i fysiska butiker)</li>
+                    <li>Konverteringsgrad: <strong>3,8%</strong> (branschsnitt: 1,9% för möbler)</li>
+                    <li>Return rate minskade med <strong>40%</strong> tack vare AR-funktionalitet</li>
+                    <li>B2B-försäljning ökade med <strong>120%</strong> genom den dedikerade portalen</li>
+                    <li>Kundnöjdhet ökade från 7,2 till <strong>8,9/10</strong> enligt NPS-mätning</li>
                 </ul>
             </div>
 
-            <p>👉 Med <strong>Stack Eaters</strong> får ni en e-handel som både säljer mer och kräver mindre manuellt arbete.</p>
+            <div class="case-study">
+                <h4>Framgångscase 2: Teknikhandel med B2B-fokus</h4>
+                <p><strong>Utgångsläge:</strong> Specialiserat företag inom industriell elektronik med 85% B2B-kunder. Befintlig e-handel var tekniskt föråldrad och kunde inte hantera komplexa produktkonfigurationer eller B2B-specifika funktioner.</p>
+                
+                <p><strong>Teknisk implementation:</strong></p>
+                <ul>
+                    <li><strong>Plattform:</strong> Shopify Plus med extensive B2B-funktionalitet och custom product configurator</li>
+                    <li><strong>Produktkatalog:</strong> 15 000+ produkter med tekniska specifikationer, PDF-datablad och kompatibilitetsmatriser</li>
+                    <li><strong>Prissystem:</strong> Dynamisk prissättning baserat på kundkategori, volym och kontraktsavtal</li>
+                    <li><strong>ERP-integration:</strong> Realtidssynkronisering med IFS för lager, priser och kunddata</li>
+                    <li><strong>Quote system:</strong> Automatiserad offerering för custom solutions och volymbeställningar</li>
+                </ul>
+                
+                <p><strong>Mätbara resultat efter 6 månader:</strong></p>
+                <ul>
+                    <li>B2B-försäljning online ökade med <strong>340%</strong></li>
+                    <li>Administrativ tid för orderhantering minskade med <strong>65%</strong></li>
+                    <li>Genomsnittlig orderstorlek ökade från 12 000 kr till <strong>28 000 kr</strong></li>
+                    <li>Kundernas self-service ökade från 15% till <strong>78%</strong></li>
+                    <li>Ny kundsanskaffning via online ökade med <strong>190%</strong></li>
+                    <li>Säljteamets produktivitet ökade med <strong>45%</strong> genom mindre administrativa uppgifter</li>
+                </ul>
+            </div>
+
+            <div class="case-study">
+                <h4>Framgångscase 3: Startup inom hållbar mode</h4>
+                <p><strong>Utgångsläge:</strong> Nystartat företag inom eco-fashion utan tidigare e-handelsexpertis. Behövde kostnadseffektiv lösning som kunde skala snabbt och integrera sustainability messaging.</p>
+                
+                <p><strong>Teknisk implementation:</strong></p>
+                <ul>
+                    <li><strong>Plattform:</strong> WooCommerce med optimerad hosting och CDN för snabb global leverans</li>
+                    <li><strong>Sustainability tracking:</strong> Custom-utvecklat system för att visa miljöpåverkan per produkt</li>
+                    <li><strong>Size guide AI:</strong> Machine learning för att minska returer genom bättre storleksrekommendationer</li>
+                    <li><strong>Subscription model:</strong> Clothing rental service med automatiserad logistics management</li>
+                    <li><strong>Social commerce:</strong> Instagram Shopping integration och influencer collaboration tools</li>
+                </ul>
+                
+                <p><strong>Mätbara resultat efter 12 månader:</strong></p>
+                <ul>
+                    <li>Från 0 till <strong>2,4 miljoner kr</strong> i årlig försäljning</li>
+                    <li>Konverteringsgrad: <strong>4,7%</strong> (branschsnitt för mode: 2,8%)</li>
+                    <li>Return rate: endast <strong>8%</strong> (branschsnitt: 20-30% för online-mode)</li>
+                    <li>Subscription service genererade <strong>35%</strong> av totala intäkterna</li>
+                    <li>Social media konvertering: <strong>6,2%</strong> från Instagram Shopping</li>
+                    <li>Kundernas lifetime value: <strong>1 850 kr</strong> tack vare loyalty program</li>
+                </ul>
+            </div>
+
+            <h3>Teknisk excellens & säkerhet</h3>
+            
+            <h4>Performance & skalbarhet</h4>
+            <p><strong>Pagespeed optimization:</strong> Tekniker som lazy loading, image optimization och CDN för laddningstider under 3 sekunder.</p>
+            <p><strong>Mobile-first design:</strong> Responsiv design optimerad för svenska användares mobila shoppingbeteende.</p>
+            <p><strong>Scalable architecture:</strong> Cloud-baserad infrastruktur som automatiskt skalar under högtrafik som Black Friday.</p>
+
+            <h4>Säkerhet & compliance</h4>
+            <p><strong>GDPR-compliance:</strong> Fullständig efterlevnad av EU:s dataskyddsförordning med cookie-hantering och data portability.</p>
+            <p><strong>PCI DSS Level 1:</strong> Högsta säkerhetsstandard för hantering av kortbetalningar.</p>
+            <p><strong>SSL & säkerhet:</strong> End-to-end kryptering och regelbundna säkerhetsuppdateringar.</p>
+
+            <h3>Support & utbildning</h3>
+            
+            <h4>Omfattande onboarding</h4>
+            <p>3-månaders intensiv utbildning av ert team i plattformshantering, produktadministration och grundläggande digital marknadsföring.</p>
+            
+            <h4>Kontinuerlig optimization</h4>
+            <p>Månatliga performance reviews, A/B-test analys och rekommendationer för förbättringar baserat på senaste e-handelstrender.</p>
+            
+            <h4>24/7 teknisk support</h4>
+            <p>Svensk support via telefon, e-post och chat för kritiska tekniska frågor och akuta problem.</p>
+
+            <p>👉 Med <strong>Stack Eaters</strong> får ni inte bara en e-handelsplattform - ni får en komplett digital handelsstrategi som växer med ert företag och levererar mätbara resultat från dag ett.</p>
         </div>
     </div>
 </div>

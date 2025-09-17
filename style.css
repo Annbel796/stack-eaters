@@ -295,82 +295,179 @@ main {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.8);
-    animation: fadeIn 0.3s ease;
+    background: linear-gradient(135deg, rgba(0,0,0,0.7) 0%, rgba(255,107,53,0.1) 100%);
+    backdrop-filter: blur(8px);
+    animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-content {
-    background-color: white;
-    margin: 2% auto;
+    background: linear-gradient(135deg, #ffffff 0%, #fafafa 100%);
+    margin: 1% auto;
     padding: 0;
-    width: 90%;
-    max-width: 900px;
-    max-height: 90vh;
-    border-radius: 15px;
+    width: 92%;
+    max-width: 1000px;
+    max-height: 95vh;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 
+        0 25px 50px rgba(0, 0, 0, 0.25),
+        0 0 0 1px rgba(255, 255, 255, 0.05);
+    animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow-y: auto;
-    animation: slideIn 0.3s ease;
 }
 
 .modal-header {
-    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff8c42 100%);
     color: white;
-    padding: 2rem;
-    border-radius: 15px 15px 0 0;
+    padding: 2.5rem 3rem;
     position: relative;
+    box-shadow: 0 8px 32px rgba(255, 107, 53, 0.3);
+}
+
+.modal-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="50" cy="10" r="0.5" fill="rgba(255,255,255,0.05)"/></pattern></defs><rect width="100" height="100" fill="url(%23grain)"/></svg>');
+    pointer-events: none;
 }
 
 .modal-header h2 {
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    z-index: 1;
 }
 
 .close {
     position: absolute;
-    top: 1rem;
-    right: 2rem;
-    color: white;
-    font-size: 3rem;
-    font-weight: bold;
+    top: 1.5rem;
+    right: 2.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 2.5rem;
+    font-weight: 300;
     cursor: pointer;
-    transition: opacity 0.3s ease;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    z-index: 2;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 }
 
 .close:hover {
-    opacity: 0.7;
+    background: rgba(255, 255, 255, 0.2);
+    transform: rotate(90deg) scale(1.1);
+    color: white;
 }
 
 .modal-body {
-    padding: 2rem;
+    padding: 3rem;
+    line-height: 1.8;
+    color: #2c3e50;
+    background: white;
 }
 
 .modal-body h3 {
     color: #ff6b35;
-    margin: 2rem 0 1rem 0;
-    font-size: 1.4rem;
+    margin: 3rem 0 1.5rem 0;
+    font-size: 1.6rem;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 0.8rem;
+    letter-spacing: -0.01em;
+}
+
+.modal-body h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #ff6b35 0%, #f7931e 100%);
+    border-radius: 2px;
+}
+
+.modal-body h3:first-of-type {
+    margin-top: 0;
 }
 
 .modal-body h4 {
-    color: #ff6b35;
-    margin: 1.5rem 0 0.5rem 0;
-    font-size: 1.2rem;
+    color: #34495e;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    font-weight: 600;
+    position: relative;
+    padding-left: 1.5rem;
 }
 
-.modal-body p, .modal-body li {
-    line-height: 1.7;
-    margin-bottom: 1rem;
+.modal-body h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 20px;
+    background: linear-gradient(180deg, #ff6b35 0%, #f7931e 100%);
+    border-radius: 2px;
+}
+
+.modal-body p {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #34495e;
+    font-size: 1rem;
+}
+
+.modal-body p strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.modal-body li {
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+    color: #34495e;
 }
 
 .modal-body ul {
     margin-left: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .case-study {
-    background: #f8f9fa;
-    padding: 2rem;
-    border-radius: 10px;
-    margin: 2rem 0;
-    border-left: 4px solid #ff6b35;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    padding: 2.5rem;
+    border-radius: 15px;
+    margin: 2.5rem 0;
+    border: 1px solid rgba(255, 107, 53, 0.1);
+    box-shadow: 
+        0 4px 6px rgba(0, 0, 0, 0.05),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.case-study::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, #ff6b35 0%, #f7931e 100%);
 }
 
 /* Footer */
@@ -436,6 +533,111 @@ footer {
     
     .modal-content {
         width: 95%;
-        margin: 5% auto;
+        margin: 2% auto;
+        max-height: 98vh;
     }
+
+    .modal-header {
+        padding: 2rem;
+    }
+
+    .modal-header h2 {
+        font-size: 1.8rem;
+    }
+
+    .modal-body {
+        padding: 2rem;
+    }
+
+    .modal-body h3 {
+        font-size: 1.4rem;
+        margin: 2rem 0 1rem 0;
+    }
+
+    .modal-body h4 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0 0.8rem 0;
+    }
+
+    .case-study {
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+    }
+
+    .close {
+        top: 1rem;
+        right: 1.5rem;
+        font-size: 2rem;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+/* Enhanced case study styling */
+.case-study h4 {
+    color: #ff6b35 !important;
+    font-size: 1.4rem !important;
+    margin-top: 0 !important;
+    margin-bottom: 1rem !important;
+    padding-left: 0 !important;
+}
+
+.case-study h4::before {
+    display: none !important;
+}
+
+.case-study h5 {
+    color: #34495e;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.case-study .result-metrics {
+    background: rgba(255, 107, 53, 0.05);
+    padding: 1rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+    border-left: 3px solid #ff6b35;
+}
+
+.case-study .result-metrics strong {
+    color: #ff6b35;
+}
+
+/* Smooth scrolling and scrollbar styling */
+.modal-content {
+    scroll-behavior: smooth;
+}
+
+.modal-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #ff6b35 0%, #f7931e 100%);
+    border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #e55a2b 0%, #e8831a 100%);
+}
+
+/* Enhanced typography and spacing */
+.modal-body p:first-of-type {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #2c3e50;
+    margin-bottom: 2rem;
+}
+
+.modal-body strong {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(247, 147, 30, 0.1) 100%);
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
 }

@@ -24,20 +24,110 @@
             </div>
         </section>
 
-        <!-- Company Info Section -->
-        <section class="company-info">
-            <h2><?php echo get_theme_mod('company_title', 'Om Stack Eaters'); ?></h2>
-            <div class="company-description">
-                <?php
-                $company_description = get_theme_mod('company_description', '
-                    <p>Stack Eaters är en modern konsultbyrå bestående av fyra experter inom Data Technology Stack. Vi erbjuder tjänster inom hela kedjan från datainsamling till visualisering, alltid med en touch av artificiell intelligens för att maximera effektiviteten och resultatet.</p>
+        <!-- About Us Section -->
+        <section id="om-oss" class="about-us-section">
+            <div class="about-hero">
+                <h2>Om Stack Eaters</h2>
+                <p class="about-tagline">Där teknik möter kreativitet för att forma framtidens digitala lösningar</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-story">
+                    <h3>Vår historia</h3>
+                    <p>Stack Eaters grundades med en vision: att bygga bro mellan komplex teknologi och praktiska affärsresultat. Som en modern konsultbyrå bestående av fyra specialister inom Data Technology Stack, har vi gjort det till vår mission att förenkla det komplexa och leverera mätbara resultat.</p>
                     
-                    <p>Vår specialitet ligger i att skapa sammanhängande lösningar där Google Analytics (insamling) → CRM (hantering) → Marketing Automation (hantering) → Looker/PowerBI (analys & visualisering) arbetar tillsammans som en enhetlig stack.</p>
+                    <p>Vårt namn speglar vår filosofi – vi "äter upp" tekniska utmaningar och transformerar dem till kraftfulla lösningar. Med över 100 framgångsrika projekt bakom oss, har vi bevisat att rätt teknisk stack kombinerat med AI-driven intelligens kan revolutionera hur företag arbetar med data.</p>
+                </div>
+
+                <div class="about-mission">
+                    <h3>Vår mission</h3>
+                    <p>Vi skapar sammanhängande tekniska ekosystem där varje komponent arbetar i harmoni. Från Google Analytics (datainsamling) till CRM-system (kundhantering), Marketing Automation (automatiserad marknadsföring) och Looker/PowerBI (visualisering) – vi bygger stacks som levererar mer än summan av sina delar.</p>
                     
-                    <p>Vi tror på att leverera mätbara resultat genom att kombinera beprövad teknik med innovativa AI-lösningar. Vårt motto "Mindre snack, mer stack" speglar vår praktiska approach - vi fokuserar på konkreta resultat snarare än tomma löften.</p>
-                ');
-                echo $company_description;
-                ?>
+                    <p>Vår AI-integration är inte bara teknik för teknikens skull. Varje algoritm, varje automatisering och varje intelligent funktion är noggrant utformad för att lösa verkliga affärsutmaningar och skapa konkret värde för våra kunder.</p>
+                </div>
+
+                <div class="about-values">
+                    <h3>Våra värderingar</h3>
+                    <div class="values-grid">
+                        <div class="value-item">
+                            <div class="value-icon">🎯</div>
+                            <h4>Resultatfokus</h4>
+                            <p>"Mindre snack, mer stack" – vi levererar mätbara resultat, inte tomma löften.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🤖</div>
+                            <h4>AI med mänsklig touch</h4>
+                            <p>Teknologi ska stärka människors kapacitet, inte ersätta den. Vi bygger AI som förstärker er expertis.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🔒</div>
+                            <h4>Säkerhet först</h4>
+                            <p>GDPR-efterlevnad, krypterad lagring och transparenta AI-beslut är inte förhandlingsbara för oss.</p>
+                        </div>
+                        <div class="value-item">
+                            <div class="value-icon">🚀</div>
+                            <h4>Innovation med stabilitet</h4>
+                            <p>Vi kombinerar banbrytande teknik med beprövade metoder för hållbara, skalabara lösningar.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-team">
+                    <h3>Vårt team</h3>
+                    <p>Fyra experter, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter till AI-specialister, från CRM-experter till visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
+                    
+                    <div class="team-stats">
+                        <div class="team-stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">År sammanlagd erfarenhet</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">Genomförda projekt</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">AI-driven övervakning</span>
+                        </div>
+                        <div class="team-stat">
+                            <span class="stat-number">4</span>
+                            <span class="stat-label">Specialistområden</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-approach">
+                    <h3>Vår arbetsmetod</h3>
+                    <div class="approach-steps">
+                        <div class="approach-step">
+                            <div class="step-number">1</div>
+                            <h4>Analys & strategi</h4>
+                            <p>Vi börjar med att förstå era specifika utmaningar och affärsmål för att skapa en skräddarsydd teknisk roadmap.</p>
+                        </div>
+                        <div class="approach-step">
+                            <div class="step-number">2</div>
+                            <h4>Stack-design</h4>
+                            <p>Vi utformar en sammanhängande teknisk arkitektur där alla komponenter kommunicerar seamless med varandra.</p>
+                        </div>
+                        <div class="approach-step">
+                            <div class="step-number">3</div>
+                            <h4>AI-integration</h4>
+                            <p>Intelligent automatisering och AI-driven insikter integreras naturligt i arbetsflödet för att maximera effektiviteten.</p>
+                        </div>
+                        <div class="approach-step">
+                            <div class="step-number">4</div>
+                            <h4>Kontinuerlig optimering</h4>
+                            <p>Genom 24/7 AI-driven övervakning säkerställer vi att era system alltid presterar på toppnivå.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-commitment">
+                    <h3>Vårt löfte till er</h3>
+                    <p>Vi förbinder oss att vara mer än bara teknikleverantörer – vi är era strategiska partners i den digitala transformationen. Med transparenta processer, regelbundna rapporter och dedikerad support säkerställer vi att era investeringar i teknik genererar konkret affärsnytta.</p>
+                    
+                    <p>Vår framgång mäts inte bara i tekniska metrics, utan i er ökade konkurrenskraft, förbättrade kundupplevelser och växande intäkter. Det är därför vi finns – för att göra er bättre på det ni gör bäst.</p>
+                </div>
             </div>
         </section>
 

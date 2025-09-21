@@ -363,6 +363,10 @@
             <h2>E-handelsplattform med AI-integration</h2>
         </div>
         <div class="modal-body">
+            <div class="modal-hero-image">
+                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Modern e-commerce platform interface" class="hero-img">
+            </div>
+            
             <p>Vi på <strong>Stack Eaters</strong> utvecklar skräddarsydda e-handelslösningar som kombinerar svensk e-handelsexpertis med kraftfull AI-teknologi. Vårt mål är att skapa onlinebutiker som inte bara konverterar bättre, utan också automatiserar era affärsprocesser och skapar exceptionella kundupplevelser.</p>
 
             <h3>Tekniska specialistområden</h3>
@@ -373,18 +377,36 @@
             <p><strong>Magento Commerce:</strong> Kraftfull plattform för komplexa produktkataloger och avancerad B2B-funktionalitet med multi-site hantering.</p>
 
             <h4>2. Betalningslösningar för svenska marknaden</h4>
+            
+            <div class="content-image-section">
+                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Säkra betalningslösningar" class="content-img">
+                <div class="image-caption">Säkra och pålitliga betalningslösningar för svenska kunder</div>
+            </div>
+            
             <p><strong>Klarna:</strong> Fullständig integration med alla Klarna-tjänster - köp nu betala senare, delbetalning och fakturahantering.</p>
             <p><strong>Swish för företag:</strong> Direktintegrering för snabba och säkra betalningar, inklusive QR-kodslösningar för fysiska butiker.</p>
             <p><strong>Kort & Digital wallet:</strong> Visa, Mastercard, Apple Pay, Google Pay med optimerad checkout-process för högre konvertering.</p>
             <p><strong>Faktura & Autogiro:</strong> B2B-fokuserade betalningslösningar med integrering till era ekonomisystem.</p>
 
             <h4>3. AI-driven kundupplevelse</h4>
+            
+            <div class="content-image-section">
+                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI och machine learning för e-handel" class="content-img">
+                <div class="image-caption">AI-driven personalisering och automatisering för bättre kundupplevelser</div>
+            </div>
+            
             <p><strong>Intelligent produktrekommendationer:</strong> Machine learning-algoritmer som analyserar kundbeteende, köphistorik och säsongstrender för att föreslå relevanta produkter i realtid.</p>
             <p><strong>Dynamisk prissättning:</strong> AI-baserad prisoptimering som tar hänsyn till konkurrentpriser, lagervolymer och kundernas prisbenägenhet.</p>
             <p><strong>Personaliserad produktsökning:</strong> Semantisk sökning som förstår kundens intentioner och visar mest relevanta resultat baserat på tidigare beteende.</p>
             <p><strong>Chatbots med naturligt språk:</strong> AI-assistenter som hanterar kundservice på svenska, produktfrågor och orderstatusuppdateringar dygnet runt.</p>
 
             <h4>4. Avancerad lagerstyrning & logistik</h4>
+            
+            <div class="content-image-section">
+                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern lagerhantering och logistik" class="content-img">
+                <div class="image-caption">Smart lagerstyrning och effektiv logistikhantering</div>
+            </div>
+            
             <p><strong>Realtidssynkronisering:</strong> Automatisk uppdatering mellan e-handel, fysiska butiker och lager. Förhindrar översäljning och optimerar produkttillgänglighet.</p>
             <p><strong>Prediktiv lagerstyrning:</strong> AI-prognoser för efterfrågan som hjälper er att optimera inköp och undvika slut-i-lager-situationer.</p>
             <p><strong>Fraktintegration:</strong> Direktintegrering med PostNord, DHL, Bring och andra nordiska leverantörer för realtidsberäkning av fraktkostnader.</p>

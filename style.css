@@ -642,6 +642,87 @@ footer {
     border-radius: 3px;
 }
 
+/* Modal Image Styling */
+.modal-hero-image {
+    margin: 0 -3rem 2rem -3rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.hero-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.modal-hero-image:hover .hero-img {
+    transform: scale(1.05);
+}
+
+.content-image-section {
+    margin: 2rem 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    background: white;
+    border: 1px solid rgba(255, 107, 53, 0.1);
+}
+
+.content-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.content-image-section:hover .content-img {
+    transform: scale(1.02);
+}
+
+.image-caption {
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-style: italic;
+    border-top: 2px solid rgba(255, 107, 53, 0.1);
+    position: relative;
+}
+
+.image-caption::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #ff6b35 0%, #f7931e 100%);
+}
+
+/* Responsive image styling */
+@media (max-width: 768px) {
+    .modal-hero-image {
+        margin: 0 -2rem 1.5rem -2rem;
+    }
+    
+    .hero-img {
+        height: 180px;
+    }
+    
+    .content-img {
+        height: 150px;
+    }
+    
+    .image-caption {
+        padding: 0.8rem 1rem;
+        font-size: 0.85rem;
+    }
+}
+
 /* About Us Section Styling */
 .about-us-section {
     padding: 4rem 0;

@@ -213,7 +213,7 @@
                     <div class="contact-icon">🏢</div>
                     <div class="contact-details">
                         <h4>Kontor</h4>
-                        <p>Stockholm, Sverige</p>
+                        <p>Vasagatan 42, 3 tr<br>111 20 Stockholm</p>
                         <span class="contact-note">Möten efter överenskommelse</span>
                     </div>
                 </div>

@@ -55,11 +55,6 @@
                             <p>"Mindre snack, mer stack" – vi levererar mätbara resultat, inte tomma löften.</p>
                         </div>
                         <div class="value-item">
-                            <div class="value-icon">🤖</div>
-                            <h4>AI med mänsklig touch</h4>
-                            <p>Teknologi ska stärka människors kapacitet, inte ersätta den. Vi bygger AI som förstärker er expertis.</p>
-                        </div>
-                        <div class="value-item">
                             <div class="value-icon">🔒</div>
                             <h4>Säkerhet först</h4>
                             <p>GDPR-efterlevnad, krypterad lagring och transparenta AI-beslut är inte förhandlingsbara för oss.</p>

@@ -109,7 +109,7 @@ main {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: 
+    background-image:
         radial-gradient(circle at 25% 25%, rgba(255,255,255,0.2) 2px, transparent 2px),
         radial-gradient(circle at 75% 75%, rgba(255,255,255,0.15) 1px, transparent 1px),
         radial-gradient(circle at 50% 10%, rgba(255,255,255,0.1) 3px, transparent 3px),
@@ -303,7 +303,7 @@ main {
     max-height: 95vh;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 
+    box-shadow:
         0 25px 50px rgba(0, 0, 0, 0.25),
         0 0 0 1px rgba(255, 255, 255, 0.05);
     animation: slideIn 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -447,7 +447,7 @@ main {
     border-radius: 15px;
     margin: 2.5rem 0;
     border: 1px solid rgba(255, 107, 53, 0.1);
-    box-shadow: 
+    box-shadow:
         0 4px 6px rgba(0, 0, 0, 0.05),
         0 1px 3px rgba(0, 0, 0, 0.1);
     position: relative;
@@ -504,15 +504,15 @@ footer {
     .header-content {
         text-align: center;
     }
-    
+
     .logo {
         font-size: 2rem;
     }
-    
+
     nav li {
         margin: 0.5rem;
     }
-    
+
     .hero h1 {
         font-size: 2rem;
     }
@@ -524,7 +524,7 @@ footer {
     .hero-stat-number {
         font-size: 2rem;
     }
-    
+
     .modal-content {
         width: 95%;
         margin: 2% auto;
@@ -634,6 +634,106 @@ footer {
     background: linear-gradient(135deg, rgba(255, 107, 53, 0.1) 0%, rgba(247, 147, 30, 0.1) 100%);
     padding: 0.1em 0.3em;
     border-radius: 3px;
+}
+
+/* Modal Image Styling */
+.modal-hero-image {
+    margin: 0 0 1.5rem 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.modal-hero-image:hover .hero-img {
+    transform: scale(1.02);
+}
+
+.content-image-section {
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    background: white;
+    border: 1px solid rgba(255, 107, 53, 0.1);
+    max-width: 400px;
+    float: right;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.content-img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.content-image-section:hover .content-img {
+    transform: scale(1.01);
+}
+
+.image-caption {
+    padding: 0.8rem 1rem;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    color: #7f8c8d;
+    font-size: 0.8rem;
+    font-style: italic;
+    border-top: 1px solid rgba(255, 107, 53, 0.1);
+    position: relative;
+}
+
+.image-caption::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 1px;
+    background: linear-gradient(90deg, #ff6b35 0%, #f7931e 100%);
+}
+
+/* Clear floats after content sections */
+.modal-body h4 {
+    clear: both;
+}
+
+/* Responsive image styling */
+@media (max-width: 768px) {
+    .modal-hero-image {
+        max-width: 100%;
+        margin: 0 0 1rem 0;
+    }
+
+    .hero-img {
+        height: 150px;
+    }
+
+    .content-image-section {
+        float: none;
+        max-width: 100%;
+        margin: 1rem 0;
+    }
+
+    .content-img {
+        height: 100px;
+    }
+
+    .image-caption {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.75rem;
+    }
 }
 
 /* About Us Section Styling */
@@ -886,41 +986,385 @@ footer {
     .about-hero h2 {
         font-size: 2.2rem;
     }
-    
+
     .about-tagline {
         font-size: 1.1rem;
     }
-    
+
     .about-content > div {
         padding: 2rem;
         margin-bottom: 2rem;
     }
-    
+
     .about-content h3 {
         font-size: 1.6rem;
     }
-    
+
     .values-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-    
+
     .team-stats {
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
-    
+
     .approach-steps {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
-    
+
     .team-stat {
         padding: 1.5rem;
     }
-    
+
     .stat-number {
         font-size: 2rem;
     }
 }
 
+/* Contact Section Styling */
+.contact-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="contact-pattern" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="15" cy="15" r="1.5" fill="rgba(255,107,53,0.03)"/></pattern></defs><rect width="100" height="100" fill="url(%23contact-pattern)"/></svg>');
+    pointer-events: none;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-header h2 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contact-tagline {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4rem;
+    margin-bottom: 4rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Contact Info */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 107, 53, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b35 0%, #f7931e 100%);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.contact-item:hover::before {
+    transform: scaleX(1);
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.15);
+}
+
+.contact-icon {
+    font-size: 2.5rem;
+    min-width: 60px;
+    text-align: center;
+}
+
+.contact-details h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.contact-details p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-details a {
+    color: #ff6b35;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.contact-details a:hover {
+    color: #f7931e;
+    text-decoration: underline;
+}
+
+.contact-note {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+/* Contact Form */
+.contact-form-section {
+    background: white;
+    padding: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 107, 53, 0.1);
+}
+
+.contact-form-section h3 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ff6b35;
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.contact-form-section h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #ff6b35 0%, #f7931e 100%);
+    border-radius: 2px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: white;
+    color: #2c3e50;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #ff6b35;
+    box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+    font-family: inherit;
+}
+
+.btn-contact {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.3);
+    width: fit-content;
+}
+
+.btn-contact:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4);
+}
+
+.btn-contact i {
+    font-size: 1.2rem;
+    font-style: normal;
+}
+
+/* Contact CTA */
+.contact-cta {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    padding: 3rem;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.contact-cta::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="cta-grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="25" cy="25" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="75" cy="75" r="1" fill="rgba(255,255,255,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23cta-grain)"/></svg>');
+    pointer-events: none;
+}
+
+.cta-content {
+    position: relative;
+    z-index: 1;
+}
+
+.cta-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.cta-benefits {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.benefit-icon {
+    font-size: 1.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem;
+    border-radius: 50%;
+    min-width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive Design for Contact */
+@media (max-width: 768px) {
+    .contact-header h2 {
+        font-size: 2.2rem;
+    }
+
+    .contact-tagline {
+        font-size: 1.1rem;
+    }
+
+    .contact-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .contact-item {
+        padding: 1.5rem;
+    }
+
+    .contact-icon {
+        font-size: 2rem;
+        min-width: 50px;
+    }
+
+    .contact-form-section {
+        padding: 2rem;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .contact-cta {
+        padding: 2rem;
+    }
+
+    .cta-content h3 {
+        font-size: 1.6rem;
+    }
+
+    .cta-benefits {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .benefit-item {
+        justify-content: center;
+    }
+}

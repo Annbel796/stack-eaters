@@ -55,11 +55,6 @@
                             <p>"Mindre snack, mer stack" – vi levererar mätbara resultat, inte tomma löften.</p>
                         </div>
                         <div class="value-item">
-                            <div class="value-icon">🤖</div>
-                            <h4>AI med mänsklig touch</h4>
-                            <p>Teknologi ska stärka människors kapacitet, inte ersätta den. Vi bygger AI som förstärker er expertis.</p>
-                        </div>
-                        <div class="value-item">
                             <div class="value-icon">🔒</div>
                             <h4>Säkerhet först</h4>
                             <p>GDPR-efterlevnad, krypterad lagring och transparenta AI-beslut är inte förhandlingsbara för oss.</p>
@@ -180,6 +175,113 @@
         </section>
     </div>
 </main>
+
+<!-- Contact Section -->
+<section id="kontakt" class="contact-section">
+    <div class="container">
+        <div class="contact-header">
+            <h2>Kontakta oss</h2>
+            <p class="contact-tagline">Redo att transformera er data till konkreta affärsresultat? Låt oss börja samtalet.</p>
+        </div>
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-icon">📞</div>
+                    <div class="contact-details">
+                        <h4>Telefon</h4>
+                        <p><a href="tel:+46812345678">+46 (0)8 123 456 78</a></p>
+                        <span class="contact-note">Vardagar 09:00 - 17:00</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">✉️</div>
+                    <div class="contact-details">
+                        <h4>E-post</h4>
+                        <p><a href="mailto:hej@stackeaters.se">hej@stackeaters.se</a></p>
+                        <span class="contact-note">Svarar inom 24 timmar</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <div class="contact-icon">🏢</div>
+                    <div class="contact-details">
+                        <h4>Kontor</h4>
+                        <p>Vasagatan 42, 3 tr<br>111 20 Stockholm</p>
+                        <span class="contact-note">Möten efter överenskommelse</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h3>Skicka ett meddelande</h3>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="contact-name">Namn *</label>
+                            <input type="text" id="contact-name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">E-post *</label>
+                            <input type="email" id="contact-email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-company">Företag</label>
+                        <input type="text" id="contact-company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-service">Intresserad av</label>
+                        <select id="contact-service" name="service">
+                            <option value="">Välj tjänst...</option>
+                            <option value="analytics">Google Analytics med AI</option>
+                            <option value="crm">CRM-hantering med AI</option>
+                            <option value="automation">Marketing Automation med AI</option>
+                            <option value="visualization">Looker/PowerBI med AI</option>
+                            <option value="gtm">Google Tag Manager</option>
+                            <option value="ads">Annonssystem (Meta, Google Ads)</option>
+                            <option value="ecommerce">E-handel</option>
+                            <option value="other">Annat/Konsultation</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="contact-message">Meddelande *</label>
+                        <textarea id="contact-message" name="message" rows="5" placeholder="Berätta om era utmaningar och mål..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn-contact">
+                        <span>Skicka meddelande</span>
+                        <i>🚀</i>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="contact-cta">
+            <div class="cta-content">
+                <h3>Varför välja Stack Eaters?</h3>
+                <div class="cta-benefits">
+                    <div class="benefit-item">
+                        <span class="benefit-icon">⚡</span>
+                        <span>Snabb implementering</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🎯</span>
+                        <span>Mätbara resultat</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🤝</span>
+                        <span>Långsiktigt partnerskap</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="benefit-icon">🔒</span>
+                        <span>GDPR-säkert</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Security Section -->
 <section class="security-section">

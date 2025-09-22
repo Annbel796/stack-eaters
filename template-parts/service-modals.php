@@ -313,123 +313,37 @@
             <h4>5. 🎯 Dynamic Content Personalization</h4>
             <p><strong>AI-driven anpassning:</strong> Baserat på användarens beteende anpassas automatiskt Call-to-Action timing, content-visning och urgency-meddelanden för maximal konvertering.</p>
 
-            <!-- Video Section -->
-            <div class="video-section" style="background: #f1f3f4; border-radius: 10px; padding: 20px; margin: 20px 0;">
-                <h4>📹 Se vår AI-GTM Implementation i action:</h4>
+            <!-- AI Features Gallery -->
+            <div class="image-gallery" style="background: #f1f3f4; border-radius: 10px; padding: 20px; margin: 20px 0;">
+                <h4>🖼️ Se våra AI-GTM Features:</h4>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 20px; margin-top: 15px;">
 
-                    <!-- AI Analytics Dashboard Video -->
+                    <!-- AI Analytics Dashboard -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🎬 AI Analytics Dashboard - Live Demo</h5>
-                        <div style="position: relative; border-radius: 8px; overflow: hidden; margin: 10px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                            <!-- AI Dashboard Simulation -->
-                            <div id="dashboardImage" style="width: 100%; height: 200px; background: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 200%22><rect width=%22800%22 height=%22200%22 fill=%22%23f8f9fa%22/><rect x=%2220%22 y=%2220%22 width=%22760%22 height=%22160%22 fill=%22%23fff%22 stroke=%22%23dee2e6%22/><text x=%2240%22 y=%2250%22 font-family=%22Arial%22 font-size=%2216%22 fill=%22%23333%22>🤖 AI Analytics Dashboard</text><rect x=%2240%22 y=%2260%22 width=%22200%22 height=%2230%22 fill=%22%234CAF50%22/><text x=%2250%22 y=%2280%22 font-family=%22Arial%22 font-size=%2212%22 fill=%22white%22>Lead Score: 85/100</text><rect x=%22260%22 y=%2260%22 width=%22200%22 height=%2230%22 fill=%22%23FF9800%22/><text x=%22270%22 y=%2280%22 font-family=%22Arial%22 font-size=%2212%22 fill=%22white%22>User Intent: High</text><rect x=%22480%22 y=%2260%22 width=%22200%22 height=%2230%22 fill=%22%232196F3%22/><text x=%22490%22 y=%2280%22 font-family=%22Arial%22 font-size=%2212%22 fill=%22white%22>Engagement: 78%</text><rect x=%2240%22 y=%22110%22 width=%22640%22 height=%2250%22 fill=%22%23e3f2fd%22 stroke=%22%232196F3%22/><text x=%2250%22 y=%22130%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23333%22>📊 Real-time Analytics • 🎯 AI Predictions • 🔥 Hot Leads Identified</text><text x=%2250%22 y=%22150%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>Live data från Google Analytics 4 + AI-enhanced tracking</text></svg>') center/cover; cursor: pointer;" onclick="playDashboardVideo()">
-                                <!-- Play button overlay -->
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 15px; border: 3px solid #fff;">
-                                    <div style="font-size: 40px; margin-bottom: 8px;">▶️</div>
-                                    <div style="font-size: 13px; font-weight: bold;">AI Dashboard Live<br><strong>0:45 min</strong></div>
-                                </div>
-                            </div>
-                            <div id="dashboardProgress" style="height: 4px; background: #e74c3c; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
-                            <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 5px 10px; border-radius: 5px; font-size: 11px; font-weight: bold;">
-                                <span id="dashboardTime">00:00</span> / 00:45
-                            </div>
-                        </div>
-                        <p style="font-size: 0.9em; color: #666;">📈 Se AI-systemet analysera användardata i realtid och generera lead scores automatiskt</p>
-                        <div style="display: flex; gap: 8px; margin-top: 10px;">
-                            <button onclick="playDashboardVideo()" style="background: #27ae60; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">▶️ Spela</button>
-                            <button onclick="pauseDashboardVideo()" style="background: #e74c3c; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">⏸️ Pausa</button>
-                            <button onclick="restartDashboardVideo()" style="background: #3498db; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">🔄 Restart</button>
-                        </div>
+                        <h5>🤖 AI Analytics Dashboard</h5>
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Analytics Dashboard" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">📈 AI-systemet analyserar användardata i realtid och genererar lead scores automatiskt</p>
                     </div>
 
-                    <!-- Implementation Process Video -->
+                    <!-- Implementation Process -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🔧 Implementation Process - Setup Guide</h5>
-                        <div style="position: relative; border-radius: 8px; overflow: hidden; margin: 10px 0; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-                            <!-- Implementation Steps Simulation -->
-                            <div id="implementationImage" style="width: 100%; height: 200px; background: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 200%22><rect width=%22800%22 height=%22200%22 fill=%22%23f1f3f4%22/><rect x=%2220%22 y=%2215%22 width=%22760%22 height=%22170%22 fill=%22%23fff%22 stroke=%22%23e0e0e0%22/><text x=%2240%22 y=%2240%22 font-family=%22Arial%22 font-size=%2214%22 fill=%22%23333%22 font-weight=%22bold%22>🔧 GTM Setup Process</text><circle cx=%2260%22 cy=%2265%22 r=%228%22 fill=%22%234CAF50%22/><text x=%2280%22 y=%2270%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22>1. Install GTM Container</text><circle cx=%2260%22 cy=%2290%22 r=%228%22 fill=%22%23FF9800%22/><text x=%2280%22 y=%2295%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22>2. Configure AI Tracking</text><circle cx=%2260%22 cy=%22115%22 r=%228%22 fill=%22%232196F3%22/><text x=%2280%22 y=%22120%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22>3. Setup WordPress Integration</text><circle cx=%2260%22 cy=%22140%22 r=%228%22 fill=%22%239C27B0%22/><text x=%2280%22 y=%22145%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22>4. Test & Deploy</text><rect x=%22400%22 y=%2260%22 width=%22350%22 height=%2280%22 fill=%22%23e8f5e8%22 stroke=%22%2366bb6a%22/><text x=%22420%22 y=%2280%22 font-family=%22Arial%22 font-size=%2212%22 fill=%22%23333%22 font-weight=%22bold%22>⚡ Setup Time: 40 sekunder</text><text x=%22420%22 y=%22100%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>vs traditionell GTM: 2-4 veckor</text><text x=%22420%22 y=%22120%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>🤖 AI gör 90% av jobbet automatiskt</text></svg>') center/cover; cursor: pointer;" onclick="playImplementationVideo()">
-                                <!-- Play button overlay -->
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 15px; border: 3px solid #fff;">
-                                    <div style="font-size: 40px; margin-bottom: 8px;">▶️</div>
-                                    <div style="font-size: 13px; font-weight: bold;">Setup Process<br><strong>1:00 min</strong></div>
-                                </div>
-                            </div>
-                            <div id="implementationProgress" style="height: 4px; background: #9b59b6; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
-                            <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 5px 10px; border-radius: 5px; font-size: 11px; font-weight: bold;">
-                                <span id="implementationTime">00:00</span> / 01:00
-                            </div>
-                        </div>
-                        <p style="font-size: 0.9em; color: #666;">⚡ Se hela implementationsprocessen från GTM container till live AI-tracking</p>
-                        <div style="display: flex; gap: 8px; margin-top: 10px;">
-                            <button onclick="playImplementationVideo()" style="background: #27ae60; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">▶️ Spela</button>
-                            <button onclick="pauseImplementationVideo()" style="background: #e74c3c; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">⏸️ Pausa</button>
-                            <button onclick="restartImplementationVideo()" style="background: #3498db; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">🔄 Restart</button>
-                        </div>
+                        <h5>🔧 Implementation Process</h5>
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Implementation Process" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">⚡ Hela implementationsprocessen från GTM container till live AI-tracking</p>
                     </div>
 
-                    <!-- AI Performance Metrics Video -->
+                    <!-- Performance Metrics -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>📊 Performance Metrics - Live Analysis</h5>
-                        <div style="position: relative; border-radius: 8px; overflow: hidden; margin: 10px 0; background: linear-gradient(135deg, #ff6b6b 0%, #feca57 100%);">
-                            <!-- Performance Metrics Simulation -->
-                            <div id="metricsImage" style="width: 100%; height: 200px; background: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 200%22><rect width=%22800%22 height=%22200%22 fill=%22%23fafafa%22/><rect x=%2215%22 y=%2215%22 width=%22770%22 height=%22170%22 fill=%22%23fff%22 stroke=%22%23ddd%22/><text x=%2230%22 y=%2240%22 font-family=%22Arial%22 font-size=%2214%22 fill=%22%23333%22 font-weight=%22bold%22>📊 Core Web Vitals - Live Monitoring</text><rect x=%2230%22 y=%2250%22 width=%22120%22 height=%2240%22 fill=%22%234CAF50%22/><text x=%2235%22 y=%2265%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22white%22>LCP: 1.2s</text><text x=%2235%22 y=%2280%22 font-family=%22Arial%22 font-size=%229%22 fill=%22white%22>GOOD ✓</text><rect x=%22160%22 y=%2250%22 width=%22120%22 height=%2240%22 fill=%22%234CAF50%22/><text x=%22165%22 y=%2265%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22white%22>FID: 89ms</text><text x=%22165%22 y=%2280%22 font-family=%22Arial%22 font-size=%229%22 fill=%22white%22>GOOD ✓</text><rect x=%22290%22 y=%2250%22 width=%22120%22 height=%2240%22 fill=%22%23FF9800%22/><text x=%22295%22 y=%2265%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22white%22>CLS: 0.12</text><text x=%22295%22 y=%2280%22 font-family=%22Arial%22 font-size=%229%22 fill=%22white%22>NEEDS WORK</text><rect x=%22430%22 y=%2250%22 width=%22330%22 height=%2270%22 fill=%22%23e3f2fd%22 stroke=%22%232196F3%22/><text x=%22440%22 y=%2270%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22 font-weight=%22bold%22>🤖 AI Performance Insights:</text><text x=%22440%22 y=%2285%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>• Bildoptimering kan förbättra LCP med 0.3s</text><text x=%22440%22 y=%2299%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>• Event batching minskar FID med 40%</text><text x=%22440%22 y=%22113%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>• CSS optimization fixar CLS automatiskt</text><rect x=%2230%22 y=%22130%22 width=%22380%22 height=%2240%22 fill=%22%23f1f8e9%22 stroke=%22%2366bb6a%22/><text x=%2240%22 y=%22145%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23333%22>⚡ Performance Score: 94/100 (+34% från baseline)</text><text x=%2240%22 y=%22160%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>🎯 Konvertering förbättrad med 23% tack vare snabbare site</text></svg>') center/cover; cursor: pointer;" onclick="playMetricsVideo()">
-                                <!-- Play button overlay -->
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 15px; border: 3px solid #fff;">
-                                    <div style="font-size: 40px; margin-bottom: 8px;">▶️</div>
-                                    <div style="font-size: 13px; font-weight: bold;">Metrics Analysis<br><strong>0:30 min</strong></div>
-                                </div>
-                            </div>
-                            <div id="metricsProgress" style="height: 4px; background: #ff6b6b; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
-                            <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 5px 10px; border-radius: 5px; font-size: 11px; font-weight: bold;">
-                                <span id="metricsTime">00:00</span> / 00:30
-                            </div>
-                        </div>
-                        <p style="font-size: 0.9em; color: #666;">🚀 Live Core Web Vitals monitoring med AI-optimering som förbättrar performance automatiskt</p>
-                        <div style="display: flex; gap: 8px; margin-top: 10px;">
-                            <button onclick="playMetricsVideo()" style="background: #27ae60; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">▶️ Spela</button>
-                            <button onclick="pauseMetricsVideo()" style="background: #e74c3c; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">⏸️ Pausa</button>
-                            <button onclick="restartMetricsVideo()" style="background: #3498db; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">🔄 Restart</button>
-                        </div>
+                        <h5>📊 Performance Metrics</h5>
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Performance Metrics" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">🚀 Core Web Vitals monitoring med AI-optimering som förbättrar performance automatiskt</p>
                     </div>
 
-                    <!-- Case Study Results Video -->
+                    <!-- Case Study Results -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🏆 Case Study Results - ROI Success Story</h5>
-                        <div style="position: relative; border-radius: 8px; overflow: hidden; margin: 10px 0; background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);">
-                            <!-- Case Study Results Simulation -->
-                            <div id="caseStudyImage" style="width: 100%; height: 200px; background: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 800 200%22><rect width=%22800%22 height=%22200%22 fill=%22%23f8f9fa%22/><rect x=%2210%22 y=%2210%22 width=%22780%22 height=%22180%22 fill=%22%23fff%22 stroke=%22%23ddd%22/><text x=%2225%22 y=%2235%22 font-family=%22Arial%22 font-size=%2214%22 fill=%22%23333%22 font-weight=%22bold%22>🏆 E-handel Case: Heminredning AB</text><rect x=%2225%22 y=%2245%22 width=%22180%22 height=%2255%22 fill=%22%23ffebee%22 stroke=%22%23f44336%22/><text x=%2235%22 y=%2260%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22 font-weight=%22bold%22>Före AI-GTM:</text><text x=%2235%22 y=%2275%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>Konvertering: 2.3%</text><text x=%2235%22 y=%2290%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>50k besökare/månad</text><rect x=%22220%22 y=%2245%22 width=%22180%22 height=%2255%22 fill=%22%23e8f5e8%22 stroke=%22%234caf50%22/><text x=%22230%22 y=%2260%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22 font-weight=%22bold%22>Efter AI-GTM:</text><text x=%22230%22 y=%2275%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>Konvertering: 4.1% (+78%)</text><text x=%22230%22 y=%2290%22 font-family=%22Arial%22 font-size=%2210%22 fill=%22%23666%22>Lead kvalitet: +85%</text><rect x=%22420%22 y=%2245%22 width=%22350%22 height=%2255%22 fill=%22%23e3f2fd%22 stroke=%22%232196f3%22/><text x=%22430%22 y=%2260%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23333%22 font-weight=%22bold%22>🤖 AI-Insights som gjorde skillnaden:</text><text x=%22430%22 y=%2275%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>• 73% konverterar efter 3+ sidvisningar</text><text x=%22430%22 y=%2290%22 font-family=%22Arial%22 font-size=%229%22 fill=%22%23666%22>• Mobil-users +40% bättre på helger</text><rect x=%2225%22 y=%22115%22 width=%22745%22 height=%2260%22 fill=%22%23fff3e0%22 stroke=%22%23ff9800%22/><text x=%2240%22 y=%22135%22 font-family=%22Arial%22 font-size=%2212%22 fill=%22%23333%22 font-weight=%22bold%22>💰 ROI Results (3 månader):</text><text x=%2240%22 y=%22150%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23666%22>• Intäktsökning: +67% • Implementation tid: 40 sekunder • ROI: +340%</text><text x=%2240%22 y=%22165%22 font-family=%22Arial%22 font-size=%2211%22 fill=%22%23666%22>• AI-kostnad: 2,500 kr/månad • Extra intäkter: 89,000 kr/månad</text></svg>') center/cover; cursor: pointer;" onclick="playCaseStudyVideo()">
-                                <!-- Play button overlay -->
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 15px; border: 3px solid #fff;">
-                                    <div style="font-size: 40px; margin-bottom: 8px;">▶️</div>
-                                    <div style="font-size: 13px; font-weight: bold;">Success Story<br><strong>0:50 min</strong></div>
-                                </div>
-                            </div>
-                            <div id="caseStudyProgress" style="height: 4px; background: #4ecdc4; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
-                            <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.8); color: white; padding: 5px 10px; border-radius: 5px; font-size: 11px; font-weight: bold;">
-                                <span id="caseStudyTime">00:00</span> / 00:50
-                            </div>
-                        </div>
-                        <p style="font-size: 0.9em; color: #666;">💎 Riktig success story: +78% konvertering, +340% ROI och AI-insights som förändrade allt</p>
-                        <div style="display: flex; gap: 8px; margin-top: 10px;">
-                            <button onclick="playCaseStudyVideo()" style="background: #27ae60; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">▶️ Spela</button>
-                            <button onclick="pauseCaseStudyVideo()" style="background: #e74c3c; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">⏸️ Pausa</button>
-                            <button onclick="restartCaseStudyVideo()" style="background: #3498db; color: white; border: none; padding: 10px 16px; border-radius: 6px; cursor: pointer; font-size: 12px; font-weight: bold;">🔄 Restart</button>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Video Playlist Controls -->
-                <div style="background: rgba(255,255,255,0.9); border: 2px solid #3498db; border-radius: 10px; padding: 15px; margin-top: 20px;">
-                    <h5 style="margin: 0 0 15px 0; color: #2c3e50;">🎬 Video Playlist Kontroller</h5>
-                    <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-                        <button onclick="playAllVideos()" style="background: linear-gradient(45deg, #27ae60, #2ecc71); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold;">▶️ Spela Alla Videos</button>
-                        <button onclick="pauseAllVideos()" style="background: linear-gradient(45deg, #e74c3c, #c0392b); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold;">⏸️ Pausa Alla</button>
-                        <button onclick="restartAllVideos()" style="background: linear-gradient(45deg, #3498db, #2980b9); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold;">🔄 Restart Playlist</button>
-                        <button onclick="downloadAllVideos()" style="background: linear-gradient(45deg, #9b59b6, #8e44ad); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold;">📥 Download Alla</button>
-                    </div>
-                    <div style="margin-top: 10px; text-align: center; font-size: 0.9em; color: #7f8c8d;">
-                        Total playtime: <strong>3:05 minuter</strong> | 4 snabba AI-enhanced videos med bildvisning
+                        <h5>🏆 Case Study Results</h5>
+                        <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Case Study Results" style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px;">
+                        <p style="font-size: 0.9em; color: #666; margin-top: 10px;">💎 Success story: +78% konvertering, +340% ROI och AI-insights som förändrade allt</p>
                     </div>
                 </div>
             </div>
@@ -508,19 +422,9 @@
 
             <p style="text-align: center; font-size: 1.1em; margin-top: 20px;">👉 Med <strong>Stack Eaters AI-Enhanced GTM</strong> får ni inte bara tracking - ni får <strong>intelligenta affärsinsikter som driver verklig tillväxt</strong>! 🎯</p>
 
-            <!-- Video Player System -->
+            <!-- Simple Demo System -->
             <script>
             let demoEngagement = 0;
-
-            // Video player states and management - Kortare videos med bilder
-            const videoStates = {
-                dashboard: { playing: false, currentTime: 0, duration: 45, totalTime: 45 }, // 0:45
-                implementation: { playing: false, currentTime: 0, duration: 60, totalTime: 60 }, // 1:00
-                metrics: { playing: false, currentTime: 0, duration: 30, totalTime: 30 }, // 0:30
-                caseStudy: { playing: false, currentTime: 0, duration: 50, totalTime: 50 } // 0:50
-            };
-
-            const videoIntervals = {};
 
             // Demo engagement simulation
             function simulateEngagement() {
@@ -541,144 +445,6 @@
                 setTimeout(() => {
                     document.getElementById('demoScore').style.transform = 'scale(1)';
                 }, 200);
-            }
-
-            // Video player functions
-            function formatTime(seconds) {
-                const mins = Math.floor(seconds / 60);
-                const secs = seconds % 60;
-                return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
-            }
-
-            function updateVideoDisplay(videoKey, timeElementId, progressElementId) {
-                const state = videoStates[videoKey];
-                const timeElement = document.getElementById(timeElementId);
-                const progressElement = document.getElementById(progressElementId);
-
-                if (timeElement) {
-                    timeElement.textContent = formatTime(state.currentTime);
-                }
-                if (progressElement) {
-                    const percentage = (state.currentTime / state.duration) * 100;
-                    progressElement.style.width = percentage + '%';
-                }
-            }
-
-            function startVideoSimulation(videoKey, timeElementId, progressElementId) {
-                if (videoStates[videoKey].playing) return;
-
-                videoStates[videoKey].playing = true;
-                videoIntervals[videoKey] = setInterval(() => {
-                    if (videoStates[videoKey].currentTime < videoStates[videoKey].duration) {
-                        videoStates[videoKey].currentTime++;
-                        updateVideoDisplay(videoKey, timeElementId, progressElementId);
-                    } else {
-                        // Video finished
-                        clearInterval(videoIntervals[videoKey]);
-                        videoStates[videoKey].playing = false;
-                    }
-                }, 100); // Update every 100ms for smooth progress
-
-                // Track video play event
-                if (window.stackEatersAnalytics) {
-                    stackEatersAnalytics.trackEvent('video', 'play', `gtm_${videoKey}_video`);
-                }
-            }
-
-            function stopVideoSimulation(videoKey) {
-                if (videoIntervals[videoKey]) {
-                    clearInterval(videoIntervals[videoKey]);
-                }
-                videoStates[videoKey].playing = false;
-            }
-
-            function restartVideoSimulation(videoKey, timeElementId, progressElementId) {
-                stopVideoSimulation(videoKey);
-                videoStates[videoKey].currentTime = 0;
-                updateVideoDisplay(videoKey, timeElementId, progressElementId);
-            }
-
-            // Individual video control functions
-            function playDashboardVideo() {
-                startVideoSimulation('dashboard', 'dashboardTime', 'dashboardProgress');
-            }
-
-            function pauseDashboardVideo() {
-                stopVideoSimulation('dashboard');
-            }
-
-            function restartDashboardVideo() {
-                restartVideoSimulation('dashboard', 'dashboardTime', 'dashboardProgress');
-            }
-
-            function playImplementationVideo() {
-                startVideoSimulation('implementation', 'implementationTime', 'implementationProgress');
-            }
-
-            function pauseImplementationVideo() {
-                stopVideoSimulation('implementation');
-            }
-
-            function restartImplementationVideo() {
-                restartVideoSimulation('implementation', 'implementationTime', 'implementationProgress');
-            }
-
-            function playMetricsVideo() {
-                startVideoSimulation('metrics', 'metricsTime', 'metricsProgress');
-            }
-
-            function pauseMetricsVideo() {
-                stopVideoSimulation('metrics');
-            }
-
-            function restartMetricsVideo() {
-                restartVideoSimulation('metrics', 'metricsTime', 'metricsProgress');
-            }
-
-            function playCaseStudyVideo() {
-                startVideoSimulation('caseStudy', 'caseStudyTime', 'caseStudyProgress');
-            }
-
-            function pauseCaseStudyVideo() {
-                stopVideoSimulation('caseStudy');
-            }
-
-            function restartCaseStudyVideo() {
-                restartVideoSimulation('caseStudy', 'caseStudyTime', 'caseStudyProgress');
-            }
-
-            // Playlist control functions
-            function playAllVideos() {
-                playDashboardVideo();
-                setTimeout(() => playImplementationVideo(), 500);
-                setTimeout(() => playMetricsVideo(), 1000);
-                setTimeout(() => playCaseStudyVideo(), 1500);
-
-                if (window.stackEatersAnalytics) {
-                    stackEatersAnalytics.trackEvent('video', 'play_all', 'gtm_video_playlist');
-                }
-            }
-
-            function pauseAllVideos() {
-                pauseDashboardVideo();
-                pauseImplementationVideo();
-                pauseMetricsVideo();
-                pauseCaseStudyVideo();
-            }
-
-            function restartAllVideos() {
-                restartDashboardVideo();
-                restartImplementationVideo();
-                restartMetricsVideo();
-                restartCaseStudyVideo();
-            }
-
-            function downloadAllVideos() {
-                // Track download event
-                if (window.stackEatersAnalytics) {
-                    stackEatersAnalytics.trackEvent('download', 'video_package', 'gtm_all_videos', 15);
-                }
-                alert('📹 Alla GTM AI-videos kommer att skickas till er inom 24h! Total storlek: ~2.1GB 📧');
             }
 
             function openContactForm(service) {

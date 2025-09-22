@@ -201,7 +201,7 @@
     <div class="modal-content">
         <div class="modal-header">
             <span class="close" onclick="closeModal('visualization')">&times;</span>
-            <h2>Looker/PowerBI med AI-touch</h2>
+            <h2>Analysering och Visualisering</h2>
         </div>
         <div class="modal-body">
             <p>Vi på <strong>Stack Eaters</strong> förvandlar komplexa data till kraftfulla visuella berättelser genom Looker och PowerBI, förstärkt med artificiell intelligens. Vårt mål är att göra data tillgänglig, förståelig och handlingsbar för alla i organisationen.</p>

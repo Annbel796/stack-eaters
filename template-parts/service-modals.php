@@ -6,24 +6,24 @@
             <h2>Google Analytics med AI-touch</h2>
         </div>
         <div class="modal-body">
-            <p>Vi på <strong>Stack Eaters</strong> transformerar traditionell webbanalys genom att integrera artificiell intelligens i Google Analytics. Vårt mål är att ge er djupare insikter, automatiserade rapporter och prediktiva analyser som driver verkliga affärsresultat.</p>
+            <p>Vi på <strong>Stack Eaters</strong> tar webbanalys till nästa nivå genom att gifta samman Google Analytics med kraften av artificiell intelligens. Vi gör mer än att bara mäta, vi förvandlar data till handlingsbara insikter, så att ni kan fatta smartare beslut snabbare. Genom att koppla AI-modeller direkt till ert Google Analytics konto kan vi låta maskinerna hitta sambanden som annars förblivit osynliga. </p>
 
             <h3>Våra huvudkomponenter</h3>
 
             <h4>1. AI-driven beteendeanalys</h4>
-            <p>Med hjälp av maskininlärning analyserar vi användarresor och identifierar dolda mönster i era besökares beteende. Vi upptäcker vilka sidor som leder till konvertering, optimala tider för interaktion och segment med högst potential.</p>
+            <p>Med hjälp av maskininlärning analyserar vi varje klick och varje sidvisning för att identifiera dolda mönster i användarresor. Vår AI hämtar rådata från GA:s händelse- och användarflöden och bearbetar den i egna analysmodeller. Det gör att vi kan avslöja exakt vilka sidor som leder till konvertering, optimala tider för interaktion och vilka steg i resan som orsakar avhopp. Resultatet blir insikter som går långt utöver vad vanliga.</p>
 
             <h4>2. Prediktiv konverteringsmodellering</h4>
-            <p>Våra AI-modeller förutsäger vilka besökare som mest sannolikt kommer att konvertera, vilket gör det möjligt att prioritera marknadsföringssatsningar och personalisera användarupplevelsen i realtid.</p>
+            <p>Genom att kombinera historiska GA-data med våra egna AI-algoritmer kan vi förutspå vilka besökare som mest sannolikt kommer att konvertera. Vi tränar modeller på användarhistorik, beteendemönster och trafikkällor för att beräkna konverteringssannolikhet i realtid. Det gör det möjligt att automatiskt prioritera kampanjer, rikta annonser och anpassa budskap mot de mest lovande leads.</p>
 
             <h4>3. Automatiserade insikter och alerts</h4>
-            <p>AI-systemet genererar automatiska rapporter och varningar när viktiga förändringar upptäcks - från traffic-anomalier till konverteringsmöjligheter som kräver omedelbar uppmärksamhet.</p>
+            <p>Vårt AI-system bevakar ständigt ert GA-konto och identifierar avvikelser eller möjligheter. Om trafiken plötsligt ökar från en viss kanal, eller om konverteringsgraden förändras dramatiskt, triggar systemet automatiska alerts. Dessa varningar och de insikter som genereras skickas direkt till era dashboards.</p>
 
             <h4>4. Avancerad segmentering</h4>
-            <p>Vi skapar dynamiska användarsegment som uppdateras i realtid baserat på beteende, engagement och konverteringssannolikhet, vilket möjliggör mer precis marknadsföring.</p>
+            <p>Med GA som datakälla och AI som motor skapar vi dynamiska segment som uppdateras i samma sekund som användarna agerar. Segmenten kan bygga på beteende, engagemang, prediktiv konverteringsrisk och mycket mer. Det här möjliggör hyperprecis marknadsföring, där varje kampanj automatiskt riktas mot de användare som är mest mottagliga just nu.</p>
 
             <h4>5. Custom AI-dashboards</h4>
-            <p>Personliga dashboards som använder naturligt språk för att förklara komplexa data och rekommendera konkreta åtgärder baserat på AI-analys.</p>
+            <p>Vi utvecklar skräddarsydda dashboards som kombinerar GA:s standarddata med våra AI-analyser. Med hjälp av naturligt språk-tolkning kan AI:n presentera komplexa mätpunkter som begripliga rekommendationer: “Flytta 20 % av budgeten till kanal X modellen förutspår 35 % högre konvertering denna vecka.” </p>
 
             <div class="case-study">
                 <h4>Framgångscase: E-handelssajt inom hemdesign</h4>

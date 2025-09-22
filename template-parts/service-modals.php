@@ -584,36 +584,36 @@
             <p><strong>A/B-testning:</strong> Kontinuerlig testning av produktsidor, checkout-process och marknadsföringsmeddelanden för att maximera konverteringsgraden.</p>
             <p><strong>Heatmap-analys:</strong> Djupgående analys av hur kunder interagerar med er webbplats för att identifiera förbättringsområden.</p>
             <p><strong>Övergivna varukorgar:</strong> Automatiserade e-postsekvenser med personaliserade erbjudanden för att återvinna förlorade försäljningar.</p>
-            <p><strong>Real-time personalisering:</strong> Dynamiskt innehåll som anpassas baserat på kundens geografiska plats, enhetstyp och beteendemönster.</p>
+            <p><strong>Realtids-personalisering:</strong> Dynamiskt innehåll som anpassas baserat på kundens geografiska plats, enhetstyp och beteendemönster.</p>
 
             <h4>6. Integrationer & systemarkitektur</h4>
-            <p><strong>Ekonomisystem:</strong> Seamless integration med Fortnox, Visma, Monitor och andra svenska bokföringssystem för automatiserad fakturahantering.</p>
+            <p><strong>Ekonomisystem:</strong> Sömlös integration med Fortnox, Visma, Monitor och andra svenska bokföringssystem för automatiserad fakturahantering.</p>
             <p><strong>ERP-system:</strong> Koppling till affärssystem som Microsoft Dynamics, SAP Business One och IFS för fullständig datasynkronisering.</p>
-            <p><strong>Marknadsföringsverktyg:</strong> Integration med HubSpot, Mailchimp, Klaviyo för automatiserad lead nurturing och kundkommunikation.</p>
-            <p><strong>Analys & rapportering:</strong> Koppling till Google Analytics 4, Microsoft Power BI och custom dashboards för djupgående affärsinsikter.</p>
+            <p><strong>Marknadsföringsverktyg:</strong> Integration med HubSpot, Mailchimp, Klaviyo för automatiserad lead-hantering och kundkommunikation.</p>
+            <p><strong>Analys & rapportering:</strong> Koppling till Google Analytics 4, Microsoft Power BI och anpassade instrumentpaneler för djupgående affärsinsikter.</p>
 
             <h3>Branschspecifika lösningar</h3>
 
             <h4>Mode & Accessoarer</h4>
-            <p>Size guide integration, virtual try-on med AR, seasonal product management och influencer collaboration tools.</p>
+            <p>Storleksguider, virtuell provning med AR, säsongsprodukthantering och samarbetsverktyg för influencers.</p>
 
             <h4>Elektronik & Teknik</h4>
-            <p>Komplexa produktkonfigurationer, garantihantering, B2B-prissättning och technical specification management.</p>
+            <p>Komplexa produktkonfigurationer, garantihantering, B2B-prissättning och hantering av tekniska specifikationer.</p>
 
             <h4>Heminredning & Möbler</h4>
-            <p>Room visualizers, 3D-produktvisning, store locator för fysiska showrooms och large item delivery management.</p>
+            <p>Rumsvisualiserare, 3D-produktvisning, butikslokaliserare för fysiska showrooms och leveranshantering för stora föremål.</p>
 
             <h4>Mat & Dryck</h4>
-            <p>Subscription management, expiration date tracking, age verification system och local delivery optimization.</p>
+            <p>Prenumerationshantering, utgångsdatumspårning, åldersverifieringssystem och optimering av lokal leverans.</p>
 
             <div class="case-study">
                 <h4>Framgångscase 1: Premium heminredningsföretag</h4>
-                <p><strong>Utgångsläge:</strong> Etablerat företag med 15 fysiska butiker ville lansera e-handel för sina 3 000+ produkter inom heminredning och möbler. Utmaningen var att recreate in-store experience online.</p>
+                <p><strong>Utgångsläge:</strong> Etablerat företag med 15 fysiska butiker ville lansera e-handel för sina 3 000+ produkter inom heminredning och möbler. Utmaningen var att återskapa butiksupplevelsen online.</p>
                 
                 <p><strong>Teknisk implementation:</strong></p>
                 <ul>
-                    <li><strong>Plattform:</strong> Magento Commerce med custom-utvecklade funktioner för 3D-produktvisning</li>
-                    <li><strong>AI-integration:</strong> Room recommendation engine baserat på kunders stilpreferenser och rumsmått</li>
+                    <li><strong>Plattform:</strong> Magento Commerce med skräddarsydda funktioner för 3D-produktvisning</li>
+                    <li><strong>AI-integration:</strong> Rumsrekommendationsmotor baserat på kunders stilpreferenser och rumsmått</li>
                     <li><strong>AR-funktionalitet:</strong> Möjlighet att "placera" möbler i kundens hem via smartphone-kamera</li>
                     <li><strong>Logistik:</strong> Avancerad leveransplanering för stora möbler med tidsbokningssystem</li>
                     <li><strong>B2B-portal:</strong> Separat portal för inredningsarkitekter och designers med specialpriser</li>
@@ -624,7 +624,7 @@
                     <li>Online-försäljningen växte från 0 till <strong>35% av total omsättning</strong></li>
                     <li>Genomsnittligt ordervärde online: <strong>8 400 kr</strong> (vs 6 200 kr i fysiska butiker)</li>
                     <li>Konverteringsgrad: <strong>3,8%</strong> (branschsnitt: 1,9% för möbler)</li>
-                    <li>Return rate minskade med <strong>40%</strong> tack vare AR-funktionalitet</li>
+                    <li>Returfrekvensen minskade med <strong>40%</strong> tack vare AR-funktionalitet</li>
                     <li>B2B-försäljning ökade med <strong>120%</strong> genom den dedikerade portalen</li>
                     <li>Kundnöjdhet ökade från 7,2 till <strong>8,9/10</strong> enligt NPS-mätning</li>
                 </ul>
@@ -636,11 +636,11 @@
                 
                 <p><strong>Teknisk implementation:</strong></p>
                 <ul>
-                    <li><strong>Plattform:</strong> Shopify Plus med extensive B2B-funktionalitet och custom product configurator</li>
+                    <li><strong>Plattform:</strong> Shopify Plus med omfattande B2B-funktionalitet och skräddarsydd produktkonfigurator</li>
                     <li><strong>Produktkatalog:</strong> 15 000+ produkter med tekniska specifikationer, PDF-datablad och kompatibilitetsmatriser</li>
                     <li><strong>Prissystem:</strong> Dynamisk prissättning baserat på kundkategori, volym och kontraktsavtal</li>
                     <li><strong>ERP-integration:</strong> Realtidssynkronisering med IFS för lager, priser och kunddata</li>
-                    <li><strong>Quote system:</strong> Automatiserad offerering för custom solutions och volymbeställningar</li>
+                    <li><strong>Offertsystem:</strong> Automatiserad offerering för skräddarsydda lösningar och volymbeställningar</li>
                 </ul>
                 
                 <p><strong>Mätbara resultat efter 6 månader:</strong></p>
@@ -661,34 +661,34 @@
                 <p><strong>Teknisk implementation:</strong></p>
                 <ul>
                     <li><strong>Plattform:</strong> WooCommerce med optimerad hosting och CDN för snabb global leverans</li>
-                    <li><strong>Sustainability tracking:</strong> Custom-utvecklat system för att visa miljöpåverkan per produkt</li>
-                    <li><strong>Size guide AI:</strong> Machine learning för att minska returer genom bättre storleksrekommendationer</li>
-                    <li><strong>Subscription model:</strong> Clothing rental service med automatiserad logistics management</li>
-                    <li><strong>Social commerce:</strong> Instagram Shopping integration och influencer collaboration tools</li>
+                    <li><strong>Hållbarhetsspårning:</strong> Skräddarsytt system för att visa miljöpåverkan per produkt</li>
+                    <li><strong>Storleksguide AI:</strong> Maskininlärning för att minska returer genom bättre storleksrekommendationer</li>
+                    <li><strong>Prenumerationsmodell:</strong> Kläduthyrningstjänst med automatiserad logistikhantering</li>
+                    <li><strong>Social handel:</strong> Instagram Shopping-integration och samarbetsverktyg för influencers</li>
                 </ul>
                 
                 <p><strong>Mätbara resultat efter 12 månader:</strong></p>
                 <ul>
                     <li>Från 0 till <strong>2,4 miljoner kr</strong> i årlig försäljning</li>
                     <li>Konverteringsgrad: <strong>4,7%</strong> (branschsnitt för mode: 2,8%)</li>
-                    <li>Return rate: endast <strong>8%</strong> (branschsnitt: 20-30% för online-mode)</li>
-                    <li>Subscription service genererade <strong>35%</strong> av totala intäkterna</li>
-                    <li>Social media konvertering: <strong>6,2%</strong> från Instagram Shopping</li>
-                    <li>Kundernas lifetime value: <strong>1 850 kr</strong> tack vare loyalty program</li>
+                    <li>Returfrekvens: endast <strong>8%</strong> (branschsnitt: 20-30% för online-mode)</li>
+                    <li>Prenumerationstjänsten genererade <strong>35%</strong> av totala intäkterna</li>
+                    <li>Sociala medier-konvertering: <strong>6,2%</strong> från Instagram Shopping</li>
+                    <li>Kundernas livstidsvärde: <strong>1 850 kr</strong> tack vare lojalitetsprogram</li>
                 </ul>
             </div>
 
             <h3>Teknisk excellens & säkerhet</h3>
             
             <h4>Performance & skalbarhet</h4>
-            <p><strong>Pagespeed optimization:</strong> Tekniker som lazy loading, image optimization och CDN för laddningstider under 3 sekunder.</p>
-            <p><strong>Mobile-first design:</strong> Responsiv design optimerad för svenska användares mobila shoppingbeteende.</p>
-            <p><strong>Scalable architecture:</strong> Cloud-baserad infrastruktur som automatiskt skalar under högtrafik som Black Friday.</p>
+            <p><strong>Sidhastighetoptimering:</strong> Tekniker som lazy loading, bildoptimering och CDN för laddningstider under 3 sekunder.</p>
+            <p><strong>Mobil-först design:</strong> Responsiv design optimerad för svenska användares mobila shoppingbeteende.</p>
+            <p><strong>Skalbar arkitektur:</strong> Molnbaserad infrastruktur som automatiskt skalar under högtrafik som Black Friday.</p>
 
             <h4>Säkerhet & compliance</h4>
-            <p><strong>GDPR-compliance:</strong> Fullständig efterlevnad av EU:s dataskyddsförordning med cookie-hantering och data portability.</p>
+            <p><strong>GDPR-efterlevnad:</strong> Fullständig efterlevnad av EU:s dataskyddsförordning med cookie-hantering och dataportabilitet.</p>
             <p><strong>PCI DSS Level 1:</strong> Högsta säkerhetsstandard för hantering av kortbetalningar.</p>
-            <p><strong>SSL & säkerhet:</strong> End-to-end kryptering och regelbundna säkerhetsuppdateringar.</p>
+            <p><strong>SSL & säkerhet:</strong> Punkt-till-punkt-kryptering och regelbundna säkerhetsuppdateringar.</p>
 
             <h3>Support & utbildning</h3>
             

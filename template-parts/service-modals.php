@@ -320,20 +320,20 @@
 
                     <!-- AI Analytics Dashboard Video -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🎬 AI Analytics Dashboard - Live Demo</h5>
+                        <h5>🎬 AI Analytics Dashboard - Snabb Demo</h5>
                         <div style="position: relative; background: #000; border-radius: 8px; overflow: hidden; margin: 10px 0;">
-                            <video id="dashboardVideo" style="width: 100%; height: 200px; background: linear-gradient(45deg, #1e3c72, #2a5298); cursor: pointer;" onclick="playDashboardVideo()">
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none;">
-                                    <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
-                                    <div style="font-size: 14px;">AI Dashboard Demo<br><strong>3:24</strong></div>
-                                </div>
-                            </video>
-                            <div id="dashboardProgress" style="height: 3px; background: #e74c3c; width: 0%; transition: width 0.3s;"></div>
+                            <!-- Dashboard Preview Image -->
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI Analytics Dashboard Preview" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;" onclick="playDashboardVideo()">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none; background: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px;">
+                                <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
+                                <div style="font-size: 14px;">AI Dashboard Demo<br><strong>0:45</strong></div>
+                            </div>
+                            <div id="dashboardProgress" style="height: 3px; background: #e74c3c; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
                             <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
-                                <span id="dashboardTime">00:00</span> / 03:24
+                                <span id="dashboardTime">00:00</span> / 00:45
                             </div>
                         </div>
-                        <p style="font-size: 0.9em; color: #666;">Real-time demonstration av AI lead scoring, user intent prediction och WordPress admin-panelen med live data-visualisering.</p>
+                        <p style="font-size: 0.9em; color: #666;">Kort demonstration av AI lead scoring, user intent prediction och WordPress admin-panelen med live data-visualisering.</p>
                         <div style="display: flex; gap: 10px; margin-top: 10px;">
                             <button onclick="playDashboardVideo()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">▶️ Spela</button>
                             <button onclick="pauseDashboardVideo()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">⏸️ Pausa</button>
@@ -343,20 +343,20 @@
 
                     <!-- Implementation Process Video -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🔧 Implementation Process - Tutorial</h5>
+                        <h5>🔧 Implementation Process - Snabb Guide</h5>
                         <div style="position: relative; background: #000; border-radius: 8px; overflow: hidden; margin: 10px 0;">
-                            <video id="implementationVideo" style="width: 100%; height: 200px; background: linear-gradient(45deg, #667eea, #764ba2); cursor: pointer;" onclick="playImplementationVideo()">
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none;">
-                                    <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
-                                    <div style="font-size: 14px;">Setup Guide<br><strong>5:18</strong></div>
-                                </div>
-                            </video>
-                            <div id="implementationProgress" style="height: 3px; background: #9b59b6; width: 0%; transition: width 0.3s;"></div>
+                            <!-- Implementation Preview Image -->
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Implementation Process Preview" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;" onclick="playImplementationVideo()">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none; background: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px;">
+                                <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
+                                <div style="font-size: 14px;">Setup Guide<br><strong>1:00</strong></div>
+                            </div>
+                            <div id="implementationProgress" style="height: 3px; background: #9b59b6; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
                             <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
-                                <span id="implementationTime">00:00</span> / 05:18
+                                <span id="implementationTime">00:00</span> / 01:00
                             </div>
                         </div>
-                        <p style="font-size: 0.9em; color: #666;">Komplett step-by-step guide för att konfigurera AI-enhanced GTM från installation till deployment och testing.</p>
+                        <p style="font-size: 0.9em; color: #666;">Snabb step-by-step guide för att konfigurera AI-enhanced GTM från installation till deployment.</p>
                         <div style="display: flex; gap: 10px; margin-top: 10px;">
                             <button onclick="playImplementationVideo()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">▶️ Spela</button>
                             <button onclick="pauseImplementationVideo()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">⏸️ Pausa</button>
@@ -366,20 +366,20 @@
 
                     <!-- AI Performance Metrics Video -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>📊 Performance Metrics - AI Analysis</h5>
+                        <h5>📊 Performance Metrics - Snabb Analys</h5>
                         <div style="position: relative; background: #000; border-radius: 8px; overflow: hidden; margin: 10px 0;">
-                            <video id="metricsVideo" style="width: 100%; height: 200px; background: linear-gradient(45deg, #ff6b6b, #feca57); cursor: pointer;" onclick="playMetricsVideo()">
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none;">
-                                    <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
-                                    <div style="font-size: 14px;">Metrics Demo<br><strong>4:42</strong></div>
-                                </div>
-                            </video>
-                            <div id="metricsProgress" style="height: 3px; background: #ff6b6b; width: 0%; transition: width 0.3s;"></div>
+                            <!-- Metrics Preview Image -->
+                            <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Performance Metrics Preview" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;" onclick="playMetricsVideo()">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none; background: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px;">
+                                <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
+                                <div style="font-size: 14px;">Metrics Demo<br><strong>0:30</strong></div>
+                            </div>
+                            <div id="metricsProgress" style="height: 3px; background: #ff6b6b; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
                             <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
-                                <span id="metricsTime">00:00</span> / 04:42
+                                <span id="metricsTime">00:00</span> / 00:30
                             </div>
                         </div>
-                        <p style="font-size: 0.9em; color: #666;">Live demonstration av Core Web Vitals monitoring, performance optimization och AI-driven insights som förbättrar konvertering.</p>
+                        <p style="font-size: 0.9em; color: #666;">Kort demonstration av Core Web Vitals monitoring, performance optimization och AI-driven insights.</p>
                         <div style="display: flex; gap: 10px; margin-top: 10px;">
                             <button onclick="playMetricsVideo()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">▶️ Spela</button>
                             <button onclick="pauseMetricsVideo()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">⏸️ Pausa</button>
@@ -389,20 +389,20 @@
 
                     <!-- Case Study Results Video -->
                     <div style="background: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                        <h5>🏆 Case Study Results - ROI Analysis</h5>
+                        <h5>🏆 Case Study Results - Snabb ROI Översikt</h5>
                         <div style="position: relative; background: #000; border-radius: 8px; overflow: hidden; margin: 10px 0;">
-                            <video id="caseStudyVideo" style="width: 100%; height: 200px; background: linear-gradient(45deg, #4ecdc4, #44a08d); cursor: pointer;" onclick="playCaseStudyVideo()">
-                                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none;">
-                                    <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
-                                    <div style="font-size: 14px;">Success Story<br><strong>6:33</strong></div>
-                                </div>
-                            </video>
-                            <div id="caseStudyProgress" style="height: 3px; background: #4ecdc4; width: 0%; transition: width 0.3s;"></div>
+                            <!-- Case Study Preview Image -->
+                            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Case Study Results Preview" style="width: 100%; height: 200px; object-fit: cover; cursor: pointer;" onclick="playCaseStudyVideo()">
+                            <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; text-align: center; pointer-events: none; background: rgba(0,0,0,0.7); padding: 15px; border-radius: 10px;">
+                                <div style="font-size: 48px; margin-bottom: 10px;">▶️</div>
+                                <div style="font-size: 14px;">Success Story<br><strong>0:50</strong></div>
+                            </div>
+                            <div id="caseStudyProgress" style="height: 3px; background: #4ecdc4; width: 0%; transition: width 0.3s; position: absolute; bottom: 0; left: 0;"></div>
                             <div style="position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.7); color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">
-                                <span id="caseStudyTime">00:00</span> / 06:33
+                                <span id="caseStudyTime">00:00</span> / 00:50
                             </div>
                         </div>
-                        <p style="font-size: 0.9em; color: #666;">Komplett genomgång av vårt framgångscase med +78% konvertering och +340% ROI. Inkluderar AI-insights och kundintervju.</p>
+                        <p style="font-size: 0.9em; color: #666;">Snabb genomgång av vårt framgångscase med +78% konvertering och +340% ROI. Viktiga insights och resultat.</p>
                         <div style="display: flex; gap: 10px; margin-top: 10px;">
                             <button onclick="playCaseStudyVideo()" style="background: #27ae60; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">▶️ Spela</button>
                             <button onclick="pauseCaseStudyVideo()" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 5px; cursor: pointer; font-size: 12px;">⏸️ Pausa</button>
@@ -421,7 +421,7 @@
                         <button onclick="downloadAllVideos()" style="background: linear-gradient(45deg, #9b59b6, #8e44ad); color: white; border: none; padding: 12px 20px; border-radius: 8px; cursor: pointer; font-weight: bold;">📥 Download Alla</button>
                     </div>
                     <div style="margin-top: 10px; text-align: center; font-size: 0.9em; color: #7f8c8d;">
-                        Total playtime: <strong>19:57 minuter</strong> | 4 AI-enhanced videos
+                        Total playtime: <strong>3:05 minuter</strong> | 4 snabba AI-enhanced videos med bildvisning
                     </div>
                 </div>
             </div>
@@ -504,12 +504,12 @@
             <script>
             let demoEngagement = 0;
 
-            // Video player states and management
+            // Video player states and management - Kortare videos med bilder
             const videoStates = {
-                dashboard: { playing: false, currentTime: 0, duration: 204, totalTime: 204 }, // 3:24
-                implementation: { playing: false, currentTime: 0, duration: 318, totalTime: 318 }, // 5:18
-                metrics: { playing: false, currentTime: 0, duration: 282, totalTime: 282 }, // 4:42
-                caseStudy: { playing: false, currentTime: 0, duration: 393, totalTime: 393 } // 6:33
+                dashboard: { playing: false, currentTime: 0, duration: 45, totalTime: 45 }, // 0:45
+                implementation: { playing: false, currentTime: 0, duration: 60, totalTime: 60 }, // 1:00
+                metrics: { playing: false, currentTime: 0, duration: 30, totalTime: 30 }, // 0:30
+                caseStudy: { playing: false, currentTime: 0, duration: 50, totalTime: 50 } // 0:50
             };
 
             const videoIntervals = {};

@@ -532,7 +532,7 @@
         </div>
         <div class="modal-body">
             <div class="modal-hero-image">
-                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Modern e-commerce platform interface" class="hero-img">
+                <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Happy team working on e-commerce solutions" class="hero-img">
             </div>
             
             <p>Vi på <strong>Stack Eaters</strong> utvecklar skräddarsydda e-handelslösningar som kombinerar svensk e-handelsexpertis med kraftfull AI-teknologi. Vårt mål är att skapa onlinebutiker som inte bara konverterar bättre, utan också automatiserar era affärsprocesser och skapar exceptionella kundupplevelser.</p>
@@ -547,8 +547,8 @@
             <h4>2. Betalningslösningar för svenska marknaden</h4>
             
             <div class="content-image-section">
-                <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Säkra betalningslösningar" class="content-img">
-                <div class="image-caption">Säkra och pålitliga betalningslösningar för svenska kunder</div>
+                <img src="https://images.unsplash.com/photo-1556742111-a301076d9d18?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Glad kund som genomför säker betalning" class="content-img">
+                <div class="image-caption">Nöjda kunder med säkra och smidiga betalningslösningar</div>
             </div>
             
             <p><strong>Klarna:</strong> Fullständig integration med alla Klarna-tjänster - köp nu betala senare, delbetalning och fakturahantering.</p>
@@ -559,8 +559,8 @@
             <h4>3. AI-driven kundupplevelse</h4>
             
             <div class="content-image-section">
-                <img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="AI och machine learning för e-handel" class="content-img">
-                <div class="image-caption">AI-driven personalisering och automatisering för bättre kundupplevelser</div>
+                <img src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Glad kvinna som handlar online med AI-hjälp" class="content-img">
+                <div class="image-caption">AI-driven personalisering som skapar glada och nöjda kunder</div>
             </div>
             
             <p><strong>Intelligent produktrekommendationer:</strong> Machine learning-algoritmer som analyserar kundbeteende, köphistorik och säsongstrender för att föreslå relevanta produkter i realtid.</p>
@@ -571,8 +571,8 @@
             <h4>4. Avancerad lagerstyrning & logistik</h4>
             
             <div class="content-image-section">
-                <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Modern lagerhantering och logistik" class="content-img">
-                <div class="image-caption">Smart lagerstyrning och effektiv logistikhantering</div>
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Glada lagermedarbetare som arbetar effektivt" class="content-img">
+                <div class="image-caption">Effektiv lagerstyrning som gör både personal och kunder nöjda</div>
             </div>
             
             <p><strong>Realtidssynkronisering:</strong> Automatisk uppdatering mellan e-handel, fysiska butiker och lager. Förhindrar översäljning och optimerar produkttillgänglighet.</p>

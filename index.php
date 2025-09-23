@@ -657,37 +657,42 @@ document.addEventListener('click', function(event) {
 <!-- Modals for detailed service information -->
 <?php get_template_part('template-parts/service-modals'); ?>
 
-<?php get_footer(); ?>
-<!-- Annonssystem med AI-touch -->
-<section id="ads" class="p-12 bg-gray-50">
-  <div class="container mx-auto">
-    <h2 class="text-3xl font-bold mb-4">Annonssystem med AI-touch</h2>
-    <p class="mb-6">
-      Digital annonsering är en av de starkaste hävstängerna för tillväxt. 
-      Vi på <strong>Stack Eaters</strong> använder AI för att maximera effekten 
-      av Meta Ads, Google Ads och Pinterest – och samtidigt säkerställa 
-      spårbarhet via Search Console och Merchant Center.
-    </p>
+<section id="ads-system" class="service-section">
+  <div class="container">
+    <h2><?php echo get_theme_mod('ads_title', 'Annonssystem & AI-optimering'); ?></h2>
+    <p><?php echo get_theme_mod('ads_description', 'Vi hjälper er att maximera ROI med AI-driven annonsering på plattformar som Meta, Google Ads, Pinterest, Google Search Console och Google Merchant Center.'); ?></p>
 
-    <h3 class="text-xl font-semibold mt-6">Det här levererar vi:</h3>
-    <ul class="list-disc ml-6 mb-6">
-      <li>Kontostruktur &amp; spårning – GA4 &amp; Merchant Center-integration</li>
-      <li>AI-driven optimering &amp; prediktiva målgrupper</li>
-      <li>Automatiserade A/B-tester med AI</li>
-      <li>Full funnel-analys med CRM &amp; Marketing Automation</li>
-      <li>Dashboards &amp; larm i Looker/Power BI</li>
-    </ul>
+    <div class="service-list">
+      <div class="service-item">
+        <h3>Meta Ads (Facebook & Instagram)</h3>
+        <p>Automatiserad kampanjhantering, prediktiv målgruppssegmentering och optimering av budget och annonser för maximal effekt.</p>
+      </div>
 
-    <h3 class="text-xl font-semibold mt-6">Case: Mode-ehandel</h3>
-    <p class="mb-6">
-      <strong>Utgångsläge:</strong> Oregelbunden ROAS, 250k/mån spenderat.<br>
-      <strong>Genomförande:</strong> Ny kontostruktur, Merchant Center-optimering, 
-      AI-målgrupper, generativ AI för annonsvarianter.<br>
-      <strong>Resultat:</strong> ROAS +28 %, CAC −19 %, intäkt +14 % på 3 månader.
-    </p>
+      <div class="service-item">
+        <h3>Google Ads & Search Console</h3>
+        <p>AI-drivna sökordsförslag, smart budgivning och analys av trafikdata för att öka konverteringar och minska slöseri av annonsbudget.</p>
+      </div>
 
-    <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
-      Be om en Ads Health Check
-    </a>
+      <div class="service-item">
+        <h3>Pinterest Ads</h3>
+        <p>Targeting och optimering med visuella AI-insikter – maximera engagemang och klick med rätt bild och budskap.</p>
+      </div>
+
+      <div class="service-item">
+        <h3>Google Merchant Center</h3>
+        <p>Automatiska produktflöden, feed-optimering och AI-förslag på vilka produkter som konverterar bäst.</p>
+      </div>
+    </div>
+
+    <div class="case-study">
+      <h3>Case: E-handel Mode</h3>
+      <p><strong>Utmaning:</strong> Lägre CTR och ROAS än önskat på sociala och sökannonser.</p>
+      <p><strong>Lösning:</strong> AI-driven optimering av målgrupper och automatiserade A/B-test av annonser på Meta & Google Ads.</p>
+      <p><strong>Resultat:</strong> +35% klickfrekvens, +28% ROAS, färre manuella justeringar.</p>
+    </div>
+
+    <div class="cta">
+      <a href="#contact" class="cta-button">Boka AI-Annonsanalys</a>
+    </div>
   </div>
 </section>

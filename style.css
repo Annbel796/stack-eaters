@@ -499,6 +499,116 @@ footer {
     100% { transform: rotate(360deg); }
 }
 
+/* Hero Section with Image */
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.6;
+}
+
+.hero-image {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-img {
+    width: 100%;
+    max-width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 
+        0 20px 40px rgba(0, 0, 0, 0.3),
+        0 0 0 3px rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.hero-img:hover {
+    transform: translateY(-5px) scale(1.02);
+}
+
+/* Team Section Images */
+.team-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.team-description p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #34495e;
+}
+
+.team-image {
+    position: relative;
+}
+
+.team-img {
+    width: 100%;
+    max-width: 350px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 
+        0 8px 25px rgba(255, 107, 53, 0.15),
+        0 0 0 2px rgba(255, 107, 53, 0.1);
+    transition: all 0.3s ease;
+}
+
+.team-img:hover {
+    transform: translateY(-3px);
+    box-shadow: 
+        0 12px 30px rgba(255, 107, 53, 0.2),
+        0 0 0 2px rgba(255, 107, 53, 0.15);
+}
+
+/* Contact Section Images */
+.contact-hero-image {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-hero-img {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 
+        0 8px 25px rgba(255, 107, 53, 0.2),
+        0 0 0 4px rgba(255, 255, 255, 1),
+        0 0 0 6px rgba(255, 107, 53, 0.3);
+    transition: all 0.3s ease;
+}
+
+.contact-hero-img:hover {
+    transform: scale(1.05);
+    box-shadow: 
+        0 12px 30px rgba(255, 107, 53, 0.3),
+        0 0 0 4px rgba(255, 255, 255, 1),
+        0 0 0 8px rgba(255, 107, 53, 0.4);
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .header-content {
@@ -513,8 +623,23 @@ footer {
         margin: 0.5rem;
     }
 
-    .hero h1 {
+    .hero-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .hero-text h1 {
         font-size: 2rem;
+    }
+
+    .hero-text p {
+        font-size: 1.1rem;
+    }
+
+    .hero-img {
+        max-width: 300px;
+        height: 350px;
     }
 
     .hero-stats {
@@ -523,6 +648,22 @@ footer {
 
     .hero-stat-number {
         font-size: 2rem;
+    }
+
+    .team-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .team-img {
+        max-width: 280px;
+        height: 220px;
+    }
+
+    .contact-hero-img {
+        max-width: 250px;
+        height: 250px;
     }
 
     .modal-content {

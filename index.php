@@ -5,21 +5,26 @@
         <!-- Hero Section -->
         <section id="hem" class="hero">
             <div class="hero-content">
-                <h1><?php echo get_theme_mod('hero_title', 'Data Technology Stack med AI-touch'); ?></h1>
-                <p><?php echo get_theme_mod('hero_description', 'Vi njuter av data – vi ‘äter’ den, smälter den och serverar den tillbaka som tydliga insikter, smarta processer och mätbara resultat.'); ?></p>
-                <div class="hero-stats">
-                    <div class="hero-stat">
-                        <span class="hero-stat-number"><?php echo get_theme_mod('stat1_number', '7'); ?></span>
-                        <span class="hero-stat-label"><?php echo get_theme_mod('stat1_label', 'Experter'); ?></span>
+                <div class="hero-text">
+                    <h1><?php echo get_theme_mod('hero_title', 'Data Technology Stack med AI-touch'); ?></h1>
+                    <p><?php echo get_theme_mod('hero_description', 'Vi njuter av data – vi 'äter' den, smälter den och serverar den tillbaka som tydliga insikter, smarta processer och mätbara resultat.'); ?></p>
+                    <div class="hero-stats">
+                        <div class="hero-stat">
+                            <span class="hero-stat-number"><?php echo get_theme_mod('stat1_number', '7'); ?></span>
+                            <span class="hero-stat-label"><?php echo get_theme_mod('stat1_label', 'Experter'); ?></span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number"><?php echo get_theme_mod('stat2_number', '100+'); ?></span>
+                            <span class="hero-stat-label"><?php echo get_theme_mod('stat2_label', 'Framgångsrika projekt'); ?></span>
+                        </div>
+                        <div class="hero-stat">
+                            <span class="hero-stat-number"><?php echo get_theme_mod('stat3_number', '24/7'); ?></span>
+                            <span class="hero-stat-label"><?php echo get_theme_mod('stat3_label', 'AI-driven analys'); ?></span>
+                        </div>
                     </div>
-                    <div class="hero-stat">
-                        <span class="hero-stat-number"><?php echo get_theme_mod('stat2_number', '100+'); ?></span>
-                        <span class="hero-stat-label"><?php echo get_theme_mod('stat2_label', 'Framgångsrika projekt'); ?></span>
-                    </div>
-                    <div class="hero-stat">
-                        <span class="hero-stat-number"><?php echo get_theme_mod('stat3_number', '24/7'); ?></span>
-                        <span class="hero-stat-label"><?php echo get_theme_mod('stat3_label', 'AI-driven analys'); ?></span>
-                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Professional woman working with data analytics" class="hero-img">
                 </div>
             </div>
         </section>
@@ -66,7 +71,15 @@
 
                 <div class="about-team">
                     <h3>Vårt team</h3>
-                    <p>Sju experter inom sju specialistområden, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter och AI-specialister till CRM-experter, e-handelsspecialister och visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
+                    
+                    <div class="team-content">
+                        <div class="team-description">
+                            <p>Sju experter inom sju specialistområden, en gemensam vision. Vårt team kombinerar djup teknisk kunskap inom sina respektive specialområden med en gemensam passion för att lösa komplexa utmaningar. Från dataarkitekter och AI-specialister till CRM-experter, e-handelsspecialister och visualiseringsguider – tillsammans täcker vi hela spektrumet av modern data technology stack.</p>
+                        </div>
+                        <div class="team-image">
+                            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Happy diverse team of professionals collaborating" class="team-img">
+                        </div>
+                    </div>
                     
                     <div class="team-stats">
                         <div class="team-stat">
@@ -173,6 +186,9 @@
         <div class="contact-header">
             <h2>Kontakta oss</h2>
             <p class="contact-tagline">Redo att transformera er data till konkreta affärsresultat? Låt oss börja samtalet.</p>
+            <div class="contact-hero-image">
+                <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Smiling professional woman ready to help with consultation" class="contact-hero-img">
+            </div>
         </div>
 
         <div class="contact-content">

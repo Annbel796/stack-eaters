@@ -6,7 +6,7 @@
         <section id="hem" class="hero">
             <div class="hero-content">
                 <h1><?php echo get_theme_mod('hero_title', 'Data Technology Stack med AI-touch'); ?></h1>
-                <p><?php echo get_theme_mod('hero_description', 'Vi njuter av data – vi 'äter' den, smälter den och serverar den tillbaka som tydliga insikter, smarta processer och mätbara resultat.'); ?></p>
+                <p><?php echo get_theme_mod('hero_description', 'Vi njuter av data – vi \"äter\" den, smälter den och serverar den tillbaka som tydliga insikter, smarta processer och mätbara resultat.'); ?></p>
                 <div class="hero-stats">
                     <div class="hero-stat">
                         <span class="hero-stat-number"><?php echo get_theme_mod('stat1_number', '7'); ?></span>

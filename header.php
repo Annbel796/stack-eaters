@@ -266,6 +266,7 @@ function stack_eaters_fallback_menu() {
         <li><a href="#tjanster">Tjänster</a></li>
         <li><a href="#om-oss">Om oss</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#kontakt" class="cta-button">Boka ett möte</a></li>
     </ul>';
 }
 ?>

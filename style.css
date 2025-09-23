@@ -86,6 +86,25 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+/* CTA Button in Navigation */
+nav a.cta-button {
+    background: #ffffff;
+    color: #ff6b35;
+    font-weight: 600;
+    border: 2px solid #ffffff;
+    padding: 0.7rem 1.5rem;
+    margin-left: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+nav a.cta-button:hover {
+    background: #ff6b35;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
 /* Main Content */
 main {
     padding: 3rem 0;

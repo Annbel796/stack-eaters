@@ -92,6 +92,30 @@ nav a:hover {
     transform: translateY(-2px);
 }
 
+/* CTA Button in Navigation */
+nav a.cta-button {
+    background: #ffffff;
+    color: #ff6b35;
+    font-weight: 700;
+    border: 2px solid #ffffff;
+    padding: 0.8rem 1.8rem;
+    margin-left: 1.5rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+nav a.cta-button:hover {
+    background: #ff6b35;
+    color: #ffffff;
+    border-color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(255, 107, 53, 0.4);
+}
+
 /* Main Content */
 main {
     padding: 3rem 0;

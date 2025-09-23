@@ -370,12 +370,6 @@
                     </div>
                 </div>
 
-                <div class="about-commitment">
-                    <h3>Vårt löfte till er</h3>
-                    <p>Vi förbinder oss att vara mer än bara teknikleverantörer – vi är era strategiska partners i den digitala transformationen. Med transparenta processer, regelbundna rapporter och dedikerad support säkerställer vi att era investeringar i teknik genererar konkret affärsnytta.</p>
-
-                    <p>Vår framgång mäts inte bara i tekniska metrics, utan i er ökade konkurrenskraft, förbättrade kundupplevelser och växande intäkter. Det är därför vi finns – för att göra er bättre på det ni gör bäst.</p>
-                </div>
             </div>
         </section>
     </div>

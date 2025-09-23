@@ -658,3 +658,36 @@ document.addEventListener('click', function(event) {
 <?php get_template_part('template-parts/service-modals'); ?>
 
 <?php get_footer(); ?>
+<!-- Annonssystem med AI-touch -->
+<section id="ads" class="p-12 bg-gray-50">
+  <div class="container mx-auto">
+    <h2 class="text-3xl font-bold mb-4">Annonssystem med AI-touch</h2>
+    <p class="mb-6">
+      Digital annonsering är en av de starkaste hävstängerna för tillväxt. 
+      Vi på <strong>Stack Eaters</strong> använder AI för att maximera effekten 
+      av Meta Ads, Google Ads och Pinterest – och samtidigt säkerställa 
+      spårbarhet via Search Console och Merchant Center.
+    </p>
+
+    <h3 class="text-xl font-semibold mt-6">Det här levererar vi:</h3>
+    <ul class="list-disc ml-6 mb-6">
+      <li>Kontostruktur &amp; spårning – GA4 &amp; Merchant Center-integration</li>
+      <li>AI-driven optimering &amp; prediktiva målgrupper</li>
+      <li>Automatiserade A/B-tester med AI</li>
+      <li>Full funnel-analys med CRM &amp; Marketing Automation</li>
+      <li>Dashboards &amp; larm i Looker/Power BI</li>
+    </ul>
+
+    <h3 class="text-xl font-semibold mt-6">Case: Mode-ehandel</h3>
+    <p class="mb-6">
+      <strong>Utgångsläge:</strong> Oregelbunden ROAS, 250k/mån spenderat.<br>
+      <strong>Genomförande:</strong> Ny kontostruktur, Merchant Center-optimering, 
+      AI-målgrupper, generativ AI för annonsvarianter.<br>
+      <strong>Resultat:</strong> ROAS +28 %, CAC −19 %, intäkt +14 % på 3 månader.
+    </p>
+
+    <a href="#contact" class="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-700">
+      Be om en Ads Health Check
+    </a>
+  </div>
+</section>

@@ -108,6 +108,35 @@ function stack_eaters_customize_register($wp_customize) {
             'section' => 'hero_section',
             'type' => 'text',
         ));
+        
+    // Ads Section
+    $wp_customize->add_section('ads_section', array(
+    'title' => 'Annonssystem',
+    'priority' => 34,
+    ));
+
+    $wp_customize->add_setting('ads_title', array(
+    'default' => 'Annonssystem & AI-optimering',
+    'sanitize_callback' => 'sanitize_text_field',
+    ));
+
+    $wp_customize->add_control('ads_title', array(
+    'label' => 'Ads Title',
+    'section' => 'ads_section',
+    'type' => 'text',
+    ));
+
+    $wp_customize->add_setting('ads_description', array(
+    'default' => 'Vi hjälper er att maximera ROI med AI-driven annonsering på plattformar som Meta, Google Ads, Pinterest, Google Search Console och Google Merchant Center.',
+    'sanitize_callback' => 'wp_kses_post',
+    ));
+
+    $wp_customize->add_control('ads_description', array(
+    'label' => 'Ads Description',
+    'section' => 'ads_section',
+    'type' => 'textarea',
+    ));
+    
     }
     
     // Company Info Section

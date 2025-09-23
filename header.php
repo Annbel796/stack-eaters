@@ -270,3 +270,4 @@ function stack_eaters_fallback_menu() {
     </ul>';
 }
 ?>
+<li><a href="#ads">Annonssystem</a></li>

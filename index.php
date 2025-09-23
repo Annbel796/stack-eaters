@@ -34,13 +34,11 @@
             <div class="about-content">
                 <div class="about-story">
                     <h3>Vår historia & mission</h3>
-                    <p>Stack Eaters grundades med en vision: att bygga bro mellan komplex teknologi och praktiska affärsresultat. Som en modern konsultbyrå med experter inom sju specialistområden av Data Technology Stack, har vi gjort det till vår mission att förenkla det komplexa och leverera mätbara resultat.</p>
+                    <p>Stack Eaters grundades med visionen att bygga en bro mellan komplex teknologi och praktiska affärsresultat. Som en modern konsultbyrå med sju expertområden inom Data Technology Stack är vår mission att förenkla det komplexa och leverera mätbara resultat.</p>
                     
-                    <p>Vårt namn speglar vår filosofi – vi "äter upp" tekniska utmaningar och transformerar dem till kraftfulla lösningar. Med över 100 framgångsrika projekt bakom oss, har vi bevisat att rätt teknisk stack kombinerat med AI-driven intelligens kan revolutionera hur företag arbetar med data.</p>
+                    <p>Vårt namn speglar vår filosofi – vi ‘äter upp’ tekniska utmaningar och förvandlar dem till kraftfulla lösningar. Med över 100 framgångsrika projekt har vi visat att rätt stack, kombinerad med AI, kan revolutionera hur företag arbetar med data.</p>
 
-                    <p>Vi skapar sammanhängande tekniska ekosystem där varje komponent arbetar i harmoni. Från Google Analytics (datainsamling) till CRM-system (kundhantering), Marketing Automation (automatiserad marknadsföring) och Looker/PowerBI (visualisering) – vi bygger stacks som levererar mer än summan av sina delar.</p>
-                    
-                    <p>Vår AI-integration är inte bara teknik för teknikens skull. Varje algoritm, varje automatisering och varje intelligent funktion är noggrant utformad för att lösa verkliga affärsutmaningar och skapa konkret värde för våra kunder.</p>
+                    <p>Vi bygger sammanhängande ekosystem – från Google Analytics och CRM till Marketing Automation och Looker/PowerBI – där varje komponent samspelar och skapar värde som är större än summan av delarna.</p>
                 </div>
 
                 <div class="about-values">
